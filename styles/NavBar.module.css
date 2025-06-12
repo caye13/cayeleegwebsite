@@ -1,0 +1,153 @@
+.navbar {
+  font-family: 'Source Sans 3', sans-serif;
+  /* background-color: rgb(69, 10, 10); */
+  /* background-color: #FBF7F3; */
+  width: 100%;
+  z-index: 50;
+  /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.2); */
+  /* every navbar needs to have its own color to match the theme (interests page needs to be dark green) and
+     homepage can be burgundy because accent colors etc. */
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem; /* h-16 */
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoWrapper {
+  flex-shrink: 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.desktopMenu {
+  display: none;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .desktopMenu {
+    display: flex;
+  }
+}
+
+.menuItems {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.menuLink {
+  /* color: #450a0a; */
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.menuLink:hover {
+  transform: translateY(-2px);
+  font-weight: bold;
+}
+
+.mobileMenuButton {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .mobileMenuButton {
+    display: none;
+  }
+}
+
+.hamburgerButton:hover {
+  font-weight: bold;
+}
+
+.hamburgerButton:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  /* box-shadow: 0 0 0 2px #450a0a; */
+}
+
+.hamburgerButton:focus-visible {
+  /* box-shadow: inset 0 0 0 2px #450a0a; */
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.mobileMenu {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .mobileMenu {
+    display: none;
+  }
+}
+
+.mobileMenuItems {
+  /* padding: 0.5rem; */
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 640px) {
+  .mobileMenuItems {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+
+.mobileMenuLink {
+  /* color: #450a0a; */
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  display: block;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.mobileMenuLink:hover {
+  transform: translateY(-2px);
+  font-weight: bold;
+}
