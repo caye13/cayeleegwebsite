@@ -15,6 +15,10 @@ const PhotosPage = () => {
                 <div className="fog-layer"></div>
                 <div className="fog-layer"></div>
                 <div className="fog-layer"></div>
+                <div className="fog-layer"></div>
+                <div className="fog-layer"></div>
+                <div className="fog-layer"></div>
+                <div className="fog-layer"></div>
             </div>
             <section className="photospage">
                 <section className="mx-auto text-center photospageNavBar">

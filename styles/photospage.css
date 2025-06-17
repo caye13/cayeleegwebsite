@@ -34,9 +34,12 @@
   transition: all 0.2s ease;
 }
 .photospage {
-    background-color:  #1a1a2e;
+    background-color:  #141423;
+    color: rgb(255, 255, 255, 0.7);
     margin: 0;
-    overflow: hidden; 
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* overflow: hidden;  */
     height: 100vh;
 }
 .photospageHeader {
@@ -61,109 +64,142 @@
     position: absolute;
     background-color: rgba(236, 240, 241, 0.4); 
     border-radius: 50%;
-    filter: blur(60px); 
+    filter: blur(150px); 
     opacity: 0; 
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
     animation-fill-mode: both; 
+    left: 0%;
 }
 
 @keyframes fogMovement1 {
-    0% { transform: translate(-40vw, -30vh) scale(1.0); opacity: 0; }
-    30% { opacity: 0.25; }
-    70% { opacity: 0.15; }
-    100% { transform: translate(40vw, 30vh) scale(1.5); opacity: 0; }
+    0% { transform: translate(-50vw, 0vh) scale(1.0); opacity: 0; } 
+    10% { opacity: 0.20; }
+    90% { opacity: 0.10; }
+    100% { transform: translate(60vw, 15vh) scale(1.5); opacity: 0; }
 }
 
 @keyframes fogMovement2 {
-    0% { transform: translate(30vw, 40vh) scale(0.8); opacity: 0; }
-    30% { opacity: 0.20; }
-    70% { opacity: 0.10; }
-    100% { transform: translate(-30vw, -40vh) scale(1.3); opacity: 0; }
+    0% { transform: translate(-70vw, 30vh) scale(0.8); opacity: 0; }
+    10% { opacity: 0.18; }
+    90% { opacity: 0.08; }
+    100% { transform: translate(40vw, -20vh) scale(1.3); opacity: 0; }
 }
 
 @keyframes fogMovement3 {
-    0% { transform: translate(-35vw, 35vh) scale(1.1); opacity: 0; }
-    30% { opacity: 0.30; }
-    70% { opacity: 0.20; }
-    100% { transform: translate(35vw, -35vh) scale(1.6); opacity: 0; }
+    0% { transform: translate(-30vw, -25vh) scale(1.1); opacity: 0; }
+    10% { opacity: 0.25; }
+    90% { opacity: 0.15; }
+    100% { transform: translate(70vw, 10vh) scale(1.6); opacity: 0; }
 }
 
 @keyframes fogMovement4 {
-    0% { transform: translate(50vw, -10vh) scale(0.9); opacity: 0; }
-    30% { opacity: 0.18; }
-    70% { opacity: 0.12; }
-    100% { transform: translate(-50vw, 10vh) scale(1.4); opacity: 0; }
+    0% { transform: translate(-80vw, 40vh) scale(0.9); opacity: 0; }
+    10% { opacity: 0.15; }
+    90% { opacity: 0.07; }
+    100% { transform: translate(30vw, -30vh) scale(1.4); opacity: 0; }
 }
 
 @keyframes fogMovement5 {
-    0% { transform: translate(-10vw, 50vh) scale(1.3); opacity: 0; }
-    30% { opacity: 0.22; }
-    70% { opacity: 0.14; }
-    100% { transform: translate(10vw, -50vh) scale(0.9); opacity: 0; }
+    0% { transform: translate(-40vw, -10vh) scale(1.3); opacity: 0; }
+    10% { opacity: 0.22; }
+    90% { opacity: 0.12; }
+    100% { transform: translate(65vw, 25vh) scale(0.9); opacity: 0; }
 }
 
 .fog-layer:nth-child(1) {
-    width: 70vh; 
-    height: 70vh;
+    width: 120vh;
+    height: 120vh;
     top: 10%;
-    left: 5%;
-    animation: fogMovement1 20s infinite;
+    left: -10%;
+    animation: flowRight1 45s infinite; 
 }
 
 .fog-layer:nth-child(2) {
-    width: 80vh;
-    height: 80vh;
+    width: 150vh;
+    height: 150vh;
     top: 50%;
-    left: 70%;
-    animation: fogMovement2 30s infinite 2s; 
+    left: -30%; 
+    animation: flowRight2 50s infinite 5s;
 }
 
 .fog-layer:nth-child(3) {
-    width: 65vh;
-    height: 65vh;
+    width: 100vh;
+    height: 100vh;
     top: 80%;
-    left: 20%;
-    animation: fogMovement3 27s infinite 9s;
+    left: -5%;
+    animation: flowRight3 40s infinite 10s; 
 }
 
 .fog-layer:nth-child(4) {
-    width: 90vh;
-    height: 90vh;
+    width: 180vh;
+    height: 180vh;
     top: -20%;
-    left: 40%;
-    animation: fogMovement4 35s infinite 16s;
+    left: -60%;
+    animation: flowRight4 60s infinite 15s;
 }
 
 .fog-layer:nth-child(5) {
-    width: 55vh;
-    height: 55vh;
+    width: 110vh;
+    height: 110vh;
     top: 40%;
-    left: -10%;
-    animation: fogMovement5 23s infinite 23s;
+    left: -20%;
+    animation: flowRight5 38s infinite 20s;
 }
 .fog-layer:nth-child(6) {
-    width: 75vh;
-    height: 75vh;
+    width: 130vh;
+    height: 130vh;
     top: 60%;
-    left: 10%;
-    animation: fogMovement1 33s infinite 2s;
+    left: -40%;
+    animation: flowRight1 48s infinite 2s;
 }
 
 .fog-layer:nth-child(7) {
-    width: 85vh;
-    height: 85vh;
+    width: 160vh;
+    height: 160vh;
     top: 20%;
-    left: 80%;
-    animation: fogMovement2 28s infinite 7s;
+    left: -70%;
+    animation: flowRight2 55s infinite 7s;
 }
 
 .fog-layer:nth-child(8) {
-    width: 60vh;
-    height: 60vh;
+    width: 90vh;
+    height: 90vh;
     top: -5%;
-    left: 25%;
-    animation: fogMovement3 24s infinite 14s;
+    left: -10%;
+    animation: flowRight3 42s infinite 12s;
+}
+
+.fog-layer:nth-child(9) {
+    width: 140vh;
+    height: 140vh;
+    top: 30%;
+    left: -50%;
+    animation: flowRight4 65s infinite 22s;
+}
+
+.fog-layer:nth-child(10) {
+    width: 105vh;
+    height: 105vh;
+    top: 70%;
+    left: -15%;
+    animation: flowRight5 35s infinite 25s;
+}
+
+.fog-layer:nth-child(11) {
+    width: 170vh;
+    height: 170vh;
+    top: -10%;
+    left: -80%;
+    animation: flowRight1 52s infinite 28s;
+}
+
+.fog-layer:nth-child(12) {
+    width: 115vh;
+    height: 115vh;
+    top: 5%;
+    left: -5%;
+    animation: flowRight2 40s infinite 3s;
 }
 
 .content {
@@ -190,20 +226,25 @@ p {
         filter: blur(30px);
     }
 
-    .fog-layer:nth-child(1) { width: 40vh; height: 40vh; }
-    .fog-layer:nth-child(2) { width: 50vh; height: 50vh; }
-    .fog-layer:nth-child(3) { width: 45vh; height: 45vh; }
-    .fog-layer:nth-child(4) { width: 60vh; height: 60vh; }
-    .fog-layer:nth-child(5) { width: 35vh; height: 35vh; }
-    .fog-layer:nth-child(6) { width: 50vh; height: 50vh; }
-    .fog-layer:nth-child(7) { width: 55vh; height: 55vh; }
-    .fog-layer:nth-child(8) { width: 40vh; height: 40vh; }
+    .fog-layer:nth-child(1) { width: 70vh; height: 70vh; }
+    .fog-layer:nth-child(2) { width: 90vh; height: 90vh; }
+    .fog-layer:nth-child(3) { width: 60vh; height: 60vh; }
+    .fog-layer:nth-child(4) { width: 100vh; height: 100vh; }
+    .fog-layer:nth-child(5) { width: 65vh; height: 65vh; }
+    .fog-layer:nth-child(6) { width: 80vh; height: 80vh; }
+    .fog-layer:nth-child(7) { width: 95vh; height: 95vh; }
+    .fog-layer:nth-child(8) { width: 55vh; height: 55vh; }
+    .fog-layer:nth-child(9) { width: 85vh; height: 85vh; }
+    .fog-layer:nth-child(10) { width: 60vh; height: 60vh; }
+    .fog-layer:nth-child(11) { width: 90vh; height: 90vh; }
+    .fog-layer:nth-child(12) { width: 70vh; height: 70vh; }
 
-    h1 {
-        font-size: 2rem;
+    /* h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
     }
 
     p {
-        font-size: 1rem;
-    }
+        font-size: 1.2rem;
+    } */
 }
