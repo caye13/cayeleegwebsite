@@ -6,15 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "install": "npm install --legacy-peer-deps"
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@prismicio/client": "^7.17.3",
     "bootstrap-icons": "^1.13.1",
     "clsx": "^2.1.1",
-    "eslint": "^8.57.1",
     "framer-motion": "^12.16.0",
     "gray-matter": "^4.0.3",
     "moment": "^2.30.1",
@@ -34,6 +32,7 @@
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "autoprefixer": "^10.4.21",
+    "eslint": "^8.57.1",
     "eslint-config-next": "15.3.3",
     "postcss": "^8.5.4",
     "tailwindcss": "^4.1.8",
