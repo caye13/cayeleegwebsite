@@ -20,6 +20,10 @@ footer {
   color: #5A4D4A;
 }
 
+.title {
+  margin-top: 1rem;
+}
+
 .article {
   display: flex;
   flex-direction: column;
@@ -111,6 +115,11 @@ footer {
         0 13px 52px #FDF5E6,
         0 0 0 0 #FDF5E6;
     transform: translateY(-4px);
+}
+
+.articleLinks {
+  text-decoration: none;
+  margin-top: 1rem;
 }
 
 .articleLinks:hover {

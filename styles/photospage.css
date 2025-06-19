@@ -34,7 +34,7 @@
   transition: all 0.2s ease;
 }
 .photospage {
-    background-color:  rgb(13, 8, 28);
+    background-color:  rgb(11, 8, 31);
     color: rgb(255, 255, 255, 0.7);
     margin: 0;
     overflow-x: hidden;
@@ -203,6 +203,18 @@
     animation: fogMovement2 40s infinite 3s;
 }
 
+.scrollable-content-wrapper {
+    position: relative;
+    z-index: 20; 
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .content {
     position: relative;
     z-index: 20; 
@@ -248,4 +260,118 @@ p {
     p {
         font-size: 1.2rem;
     } */
+}
+/* Updated CSS for the React PhotoGallery component */
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15rem;
+    padding: 2rem;
+    max-width: 2000px;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.photo-card {
+    position: relative;
+    perspective: 1000px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-out;
+    transform: translateY(0);
+    margin-top: 2rem;
+    /* Dimensions will be set dynamically by React component */
+}
+
+.photo-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.photo-card.flipped .photo-card-inner {
+    transform: rotateY(180deg);
+}
+
+.photo-front,
+.photo-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-front {
+    background-color: rgb(11, 8, 31);
+}
+
+/* Next.js Image component will handle sizing */
+.photo-front img {
+}
+
+.photo-back {
+    background-color: rgb(11, 8, 31);
+    color: white;
+    padding: 1.5rem;
+    transform: rotateY(180deg);
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    gap: 0.5rem;
+    box-sizing: border-box;
+}
+
+.photo-back h3 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.photo-back p {
+    font-size: 0.9rem;
+    margin: 0.25rem 0;
+}
+
+.photo-date,
+.photo-location {
+    opacity: 0.8;
+    font-style: italic;
+}
+
+/* Media queries */
+@media (max-width: 1024px) {
+    .photo-gallery {
+        gap: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .photo-gallery {
+        gap: 3rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .photo-gallery {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .photo-card {
+        max-width: 90vw;
+        max-height: 70vh;
+    }
 }

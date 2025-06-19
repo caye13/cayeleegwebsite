@@ -2,8 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import "../styles/homepage.css"
 import ProjectsSection from "../components/ProjectSection";
-
-
+import Footer from '../components/HomePageFooter';
 
 const HomePage = () => {
   return (
@@ -68,6 +67,7 @@ const HomePage = () => {
                 </ul>
             </div>
         </section> */}
+        <Footer />
     </section>
   )
 }
