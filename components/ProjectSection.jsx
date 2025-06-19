@@ -4,33 +4,42 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 const projectsData = [
-  {
-    id: 1,
-    title: "Computer Vision Satellite Image Analysis",
-    description: "Analysis of cargo movement in high forestation areas using computer vision depth estimation, object tracking, segmentation, and foreground detection/classification. Intended purpose is to combat human trafficking",
-    image: "/projects/1.png",
-    tag: ["All", "Computer Vision"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+  // {
+  //   id: 1,
+  //   title: "Computer Vision Satellite Image Analysis",
+  //   description: "Analysis of cargo movement in high forestation areas using computer vision depth estimation, object tracking, segmentation, and foreground detection/classification. Intended purpose is to combat human trafficking",
+  //   image: "/projects/1.png",
+  //   tag: ["All", "AI"],
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
   {
     id: 2,
     title: "AI Therapist",
     description: "Using natural language processing to make therapy more accessible, affordable, and convenient.",
     image: "/projects/2.png",
-    tag: ["All", "Web"],
+    tag: ["All", "AI"],
     gitUrl: "/",
     previewUrl: "/",
   },
-  {
-    id: 3,
-    title: "Stock Price Predictor",
-    description: "Predicting stock prices using historical data and machine learning algorithms.",
-    image: "/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+  // {
+  //   id: 3,
+  //   title: "Stock Price Predictor",
+  //   description: "Predicting stock prices using historical data and machine learning algorithms.",
+  //   image: "/projects/3.png",
+  //   tag: ["All", "AI"],
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
+  // {
+  //   id: 3,
+  //   title: "NLP Summarizer of Privacy Policies",
+  //   description: "Summarizes the data taken by apps outlined in their intrusive privacy policies which are constructed to be unintelligible to non-legalese fluent users (the general audience)",
+  //   image: "/projects/3.png",
+  //   tag: ["All", "AI"],
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
   {
     id: 4,
     title: "Monte Carlo Poker Estimation",
@@ -40,15 +49,15 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
-  {
-    id: 5,
-    title: "Spotify Playlist Merger",
-    description: "Given two Spotify Users, combines all common songs on both users' playlists into one.",
-    image: "/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+  // {
+  //   id: 5,
+  //   title: "Spotify Playlist Merger",
+  //   description: "Given two Spotify Users, combines all common songs on both users' playlists into one.",
+  //   image: "/projects/5.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
   {
     id: 6,
     title: "Personal Website",
@@ -82,7 +91,7 @@ const ProjectsSection = () => {
     <section id="projects">
       <h2 className="text-4xl font-bold text-red-950 mt-4 mb-8 md:mb-12">
         Projects
-      </h2>
+      </h2>      
       {/* <div className="text-red-950 flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
@@ -105,7 +114,7 @@ const ProjectsSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div> */}
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 p-4">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}

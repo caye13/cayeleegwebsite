@@ -4,6 +4,7 @@
   /* background-color: #FBF7F3; */
   width: 100%;
   z-index: 50;
+  /* position: fixed; */
   /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.2); */
   /* every navbar needs to have its own color to match the theme (interests page needs to be dark green) and
      homepage can be burgundy because accent colors etc. */

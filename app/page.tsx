@@ -19,7 +19,7 @@ const HomePage = () => {
         <section>
             <div className='intro'>
                 <h3>I'm a student studying Computer Science, Business Administration, and Mathematics at the University of Southern California.
-                    I'm currently exploring the intersection of my interests in cybersecurity and artificial intelligence seperately.
+                    I'm currently exploring the crisscrossing of my interests in cybersecurity and artificial intelligence.
                     <br></br>
                 </h3>
             </div>
@@ -37,7 +37,7 @@ const HomePage = () => {
                 </ul> */}
             </div>
         </section>
-        <section className='skills'>
+        {/* <section className='skills'>
             <div>
                 <h2>Skills</h2>
                 <h3>
@@ -48,17 +48,17 @@ const HomePage = () => {
                         <li>Data Structures and Object-Oriented Programming, Algorithms and Theory of Computing, Principles of Software Engineering, Machine Learning</li>
                         <li>Economics, Financial and Managerial Accounting, Marketing, and Operations Management</li>
                     </ul>
-                    {/* <ul>
+                    <ul>
                         <li>Programming Languages: Python, Java, JavaScript, C++, SQL, R</li>
                         <li>Full Stack Development: HTML, CSS, React, Node.js, Next.js, ExpressJS</li>
                         <li>Mobile Development: React Native, Swift</li>
                         <li>Database Management: MySQL, MongoDB, PostgreSQL</li>
                         <li>Machine Learning: Scikit-learn, TensorFlow</li>
-                    </ul> */}
+                    </ul>
                 </h3>
             </div>
-        </section>
-        <section className='extras'>
+        </section> */}
+        {/* <section className='extras'>
             <div>
                 <h2>Interests</h2>
                 <ul>
@@ -67,7 +67,7 @@ const HomePage = () => {
                     <li><a href="https://github.com/cayeleeg/blog">Blog</a></li>
                 </ul>
             </div>
-        </section>
+        </section> */}
     </section>
   )
 }
