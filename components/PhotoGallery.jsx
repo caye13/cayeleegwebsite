@@ -1,5 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
+import '../styles/photospage.css';
+import Image from 'next/image';
 
 const PhotoGallery = () => {
     const photos = [
@@ -135,7 +137,7 @@ const PhotoGallery = () => {
                     >
                         <div className="photo-card-inner">
                             <div className="photo-front">
-                                <img 
+                                {/* <img 
                                     ref={el => imageRefs.current[index] = el}
                                     src={photo.src} 
                                     alt={photo.title}
@@ -146,6 +148,15 @@ const PhotoGallery = () => {
                                         height: '100%',
                                         objectFit: 'cover'
                                     }}
+                                /> */}
+                                <Image
+                                    ref={el => imageRefs.current[index] = el}
+                                    src={photo.src}
+                                    alt={photo.title}
+                                    onLoad={(e) => handleImageLoad(photo.id, index, e)}
+                                    onError={() => handleImageError(photo.id, index)}
+                                    layout="fill"
+                                    objectFit="cover"
                                 />
                             </div>
                             <div className="photo-back">
