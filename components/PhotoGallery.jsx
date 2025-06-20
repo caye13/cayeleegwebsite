@@ -153,10 +153,19 @@ const PhotoGallery = () => {
                                     ref={el => imageRefs.current[index] = el}
                                     src={photo.src}
                                     alt={photo.title}
-                                    onLoad={(e) => handleImageLoad(photo.id, index, e)}
-                                    onError={() => handleImageError(photo.id, index)}
+                                    // onLoad={(e) => handleImageLoad(photo.id, index, e)}
+                                    // onError={() => handleImageError(photo.id, index)}
+                                    onLoad={(e) => {
+    console.log('Image loaded successfully:', e.target.src);
+    handleImageLoad(photo.id, index, e);
+  }}
+  onError={(e) => {
+    console.error('Image failed to load:', e.target.src);
+    console.error('Error details:', e);
+    handleImageError(photo.id, index);
+  }}
                                     layout="fill"
-                                    objectFit="cover"
+                                    objectFit="cover"            
                                 />
                             </div>
                             <div className="photo-back">
