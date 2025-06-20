@@ -107,23 +107,22 @@ footer {
 }
 
 .title {
-    /* max-width: 900px; */
-    font-size: 117px;
-    background: url(../public/imgs/nameimg.jpeg) -800px -800px;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: left;
-    font-weight: bolder;
-    text-transform: uppercase;
-    word-wrap: break-word;
-    font-weight: 900;
-    -webkit-font-smoothing: antialiased;
-    margin: 0px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    white-space: normal;
-    word-wrap: break-word;
+  font-size: 117px;
+  background: url(../public/imgs/nameimg.jpeg) -800px -800px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-weight: bolder;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  margin: 0px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .projects {
