@@ -1,6 +1,7 @@
 import ArticleItemList from "@/components/ArticleListItem"
 import { getCategorisedArticles } from "@/lib/articles"
 import DarkModeToggle from "@/components/DarkModeToggle"
+import "../../styles/notes.css"
 
 const NotesPage = () => {
   const articles = getCategorisedArticles()

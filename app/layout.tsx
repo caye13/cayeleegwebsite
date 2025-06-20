@@ -18,7 +18,7 @@ const sourceSans3 = Source_Sans_3({
 })
 
 export const metadata: Metadata = {
-  title: "cayeleeg website",
+  title: "Caye Lee",
   description: "Created by Caye Lee",
 }
 
