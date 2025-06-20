@@ -1,0 +1,92 @@
+
+/* === Page Layout === */
+.contact-page {
+  background-image: url('../public/imgs/owls.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  position: relative;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+/* === Overlay Content Box === */
+.overlay {
+  width: 90%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(13px);
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+  color: white;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.overlay h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.overlay p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.overlay a {
+  color: #FDF5E6;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.overlay i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+/* === Responsive Fixes === */
+@media (max-width: 1200px) {
+  .contact-page {
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+  }
+
+  .overlay {
+    width: 70%;
+    transform: translateX(0);
+    position: relative;
+    bottom: 8rem;
+    margin: 0 auto;
+  }
+}
+.icon-glow {
+    width: 5rem; 
+    height: 2rem; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    margin: 1rem;
+}
+
+.icon-glow:hover {
+    transform: translateY(-4px);
+}
