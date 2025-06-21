@@ -12,8 +12,8 @@ const linkColor = '#FBF7F3';
         <div className="contact-page">
             <section>
                 <div className="overlay">
-                <h1>Feel free to reach out</h1>
-                <p>I’d love to hear from you!</p>
+                <h1>Lets connect</h1>
+                <p>Always looking for new collabs, people, and fun. Talk soon</p>
                 <div className="flex space-x-7 text-3xl">
                     <a className="icon-glow" href="https://x.com/cayeleeg" target="_blank" rel="noopener noreferrer" aria-label="Twitter" style={{ color: linkColor }}>
                         <i className="bi bi-twitter"></i>
