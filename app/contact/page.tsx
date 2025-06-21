@@ -12,8 +12,8 @@ const linkColor = '#FBF7F3';
         <div className="contact-page">
             <section>
                 <div className="overlay">
-                <h1>Feel free to contact me</h1>
-                <p>I’d love to hear from you! Reach out with any questions or ideas.</p>
+                <h1>Feel free to reach out</h1>
+                <p>I’d love to hear from you!</p>
                 <div className="flex space-x-7 text-3xl">
                     <a className="icon-glow" href="https://x.com/cayeleeg" target="_blank" rel="noopener noreferrer" aria-label="Twitter" style={{ color: linkColor }}>
                         <i className="bi bi-twitter"></i>
@@ -28,6 +28,7 @@ const linkColor = '#FBF7F3';
                         <i className='bi bi-envelope-fill' style={{ color: linkColor }}></i>
                     </a>
                 </div>
+                <p>Photo by Cary Lee</p>
             </div>
             </section>
         </div>
