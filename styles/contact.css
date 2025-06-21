@@ -1,7 +1,7 @@
 
 /* === Page Layout === */
 .contact-page {
-  background-image: url('../public/imgs/owls.JPG');
+  background: url(https://raw.githubusercontent.com/caye13/my-website-photos/main/owls.JPG);
   background-size: cover;
   background-position: center;
   height: 100vh;

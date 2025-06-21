@@ -108,7 +108,7 @@ footer {
 
 .title {
   font-size: 117px;
-  background: url(../public/imgs/nameimg.jpeg) -800px -800px;
+  background: url(https://raw.githubusercontent.com/caye13/my-website-photos/main/nameimg.jpeg) -800px -800px;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
