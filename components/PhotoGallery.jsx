@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const PhotoGallery = () => {
     const photos = [
-        { id: 1, src: "/imgs/ggbnight.jpeg", title: "Golden Gate Bridge", location: "San Francisco, CA", date: "January, 2024", description: "Evening walk to Fort Point with Dad" },
+        { id: 1, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/ggbnight.jpeg", title: "Golden Gate Bridge", location: "San Francisco, CA", date: "January, 2024", description: "Evening walk to Fort Point with Dad" },
         { id: 2, src: "/imgs/winterYosemite.JPG", title: "Yosemite Falls", location: "Yosemite Valley, CA", date: "April, 2014", description: "From Ahwahnee Hotel to Lower Yosemite Falls Trail" },
         { id: 3, src: "/imgs/alaska.JPG", title: "Ice Caps", location: "Anchorage, Alaska", date: "August, 2013", description: "Where the heart is" },
         // { id: 5, src: "/imgs/mtTam.jpeg", title: "Mount Tam", location: "Stinson Beach, CA", date: "July, 2024", description: "Mountain Tamalpais" },
