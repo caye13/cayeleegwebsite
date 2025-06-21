@@ -5,15 +5,15 @@ import Image from 'next/image';
 
 const PhotoGallery = () => {
     const photos = [
-        // { id: 1, src: "/imgs/ggbnight.jpeg", title: "Golden Gate Bridge", location: "San Francisco, CA", date: "January, 2024", description: "Evening walk to Fort Point with Dad" },
-        // { id: 2, src: "/imgs/winterYosemite.JPG", title: "Yosemite Falls", location: "Yosemite Valley, CA", date: "April, 2014", description: "From Ahwahnee Hotel to Lower Yosemite Falls Trail" },
-        // { id: 3, src: "/imgs/alaska.JPG", title: "Ice Caps", location: "Anchorage, Alaska", date: "August, 2013", description: "Where the heart is" },
+        { id: 1, src: "/imgs/ggbnight.jpeg", title: "Golden Gate Bridge", location: "San Francisco, CA", date: "January, 2024", description: "Evening walk to Fort Point with Dad" },
+        { id: 2, src: "/imgs/winterYosemite.JPG", title: "Yosemite Falls", location: "Yosemite Valley, CA", date: "April, 2014", description: "From Ahwahnee Hotel to Lower Yosemite Falls Trail" },
+        { id: 3, src: "/imgs/alaska.JPG", title: "Ice Caps", location: "Anchorage, Alaska", date: "August, 2013", description: "Where the heart is" },
         // { id: 5, src: "/imgs/mtTam.jpeg", title: "Mount Tam", location: "Stinson Beach, CA", date: "July, 2024", description: "Mountain Tamalpais" },
-        // { id: 4, src: "/imgs/glaciers.JPG", title: "Glaciers", location: "Glacier Bay National Park, Alaska", date: "August, 2013", description: "Sightseeing glaciers + ice caps day" },
-        // { id: 6, src: "/imgs/sausalito.jpeg", title: "View of SF", location: "Sausalito, CA", date: "July, 2023", description: "Outside of Spinnaker with Quinn" },
-        // { id: 7, src: "/imgs/Monterey-7745.jpg", title: "Sunset", location: "Monterey, CA", date: "December, 2013", description: "Grandparents' Anniversary" },
-        // { id: 8, src: "/imgs/sb.jpeg", title: "Old Mission Santa Barbara", location: "Santa Barbara, CA", date: "July, 2022", description: "" },
-        // { id: 9, src: "/imgs/blueAngels.jpg", title: "Hornets", location: "Fleet Week", date: "July, 2022", description: "Flight demonstration of the F-18s in Blue Angel uniform" },
+        { id: 4, src: "/imgs/glaciers.JPG", title: "Glaciers", location: "Glacier Bay National Park, Alaska", date: "August, 2013", description: "Sightseeing glaciers + ice caps day" },
+        { id: 6, src: "/imgs/sausalito.jpeg", title: "View of SF", location: "Sausalito, CA", date: "July, 2023", description: "Outside of Spinnaker with Quinn" },
+        { id: 7, src: "/imgs/Monterey-7745.jpg", title: "Sunset", location: "Monterey, CA", date: "December, 2013", description: "Grandparents' Anniversary" },
+        { id: 8, src: "/imgs/sb.jpeg", title: "Old Mission Santa Barbara", location: "Santa Barbara, CA", date: "July, 2022", description: "" },
+        { id: 9, src: "/imgs/blueAngels.jpg", title: "Hornets", location: "Fleet Week", date: "July, 2022", description: "Flight demonstration of the F-18s in Blue Angel uniform" },
     ];
 
     const [flippedCards, setFlippedCards] = useState({});
