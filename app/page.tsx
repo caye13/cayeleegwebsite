@@ -17,52 +17,18 @@ const HomePage = () => {
                 <p className='title font-sourceSans3'>CAYE LEE</p>
             {/* </header> */}
             {/* </section> */}
-            <section>
-                {/* <div className='intro'>
-                    <h3>I'm a student studying Computer Science, Business Administration, and Mathematics at the University of Southern California.
-                        I'm currently exploring the crisscrossing of my interests in cybersecurity and artificial intelligence.
-                        <br></br>
-                    </h3>
-                </div> */}
-            </section>
             <AboutSection />
             <section className='projects'>
                 <div>       
                     <ProjectsSection /> 
                 </div>
             </section>
-            
-            {/* <section className='skills'>
+            <section className='extras'>
                 <div>
-                    <h2>Skills</h2>
-                    <h3>
-                        Relevant Coursework:
-                        <br></br>
-                        <ul>
-                            <li>Multivariable Calculus, Differential Equations, Linear Algebra, Statistics and Probability, Discrete Mathematics, Mechanics and Thermodynamics</li>
-                            <li>Data Structures and Object-Oriented Programming, Algorithms and Theory of Computing, Principles of Software Engineering, Machine Learning</li>
-                            <li>Economics, Financial and Managerial Accounting, Marketing, and Operations Management</li>
-                        </ul>
-                        <ul>
-                            <li>Programming Languages: Python, Java, JavaScript, C++, SQL, R</li>
-                            <li>Full Stack Development: HTML, CSS, React, Node.js, Next.js, ExpressJS</li>
-                            <li>Mobile Development: React Native, Swift</li>
-                            <li>Database Management: MySQL, MongoDB, PostgreSQL</li>
-                            <li>Machine Learning: Scikit-learn, TensorFlow</li>
-                        </ul>
-                    </h3>
+                    <h2>Extras</h2>
+                    <p>When I'm not coding, I hike, produce music, play solo violin concertos, sketch naturalism, play chess, and more.</p>
                 </div>
-            </section> */}
-            {/* <section className='extras'>
-                <div>
-                    <h2>Interests</h2>
-                    <ul>
-                        <li><a href="https://github.com/cayeleeg/portfolio">Portfolio</a></li>
-                        <li><a href="https://github.com/cayeleeg/notes">Notes</a></li>
-                        <li><a href="https://github.com/cayeleeg/blog">Blog</a></li>
-                    </ul>
-                </div>
-            </section> */}
+            </section>
         </section>
         <Footer />
     </>
