@@ -28,7 +28,7 @@ const HomePage = () => {
             <section className='extras'>
                 <div>
                     <h2>Extras</h2>
-                    <p>When I'm not coding, I hike, produce music, play solo violin concertos, sketch naturalism, play chess, and more.</p>
+                    <p>Other than coding, I've got one too many pastimes for a singular person: hikes, produces music, Playlist solo violin concertos, sketches naturalism, experiments with painting neoclassicism art, plays chess, and more.</p>
                     <Link href="/interests" className='font-medium underline'>Take a look</Link>
                 </div>
                 <Gallery />
