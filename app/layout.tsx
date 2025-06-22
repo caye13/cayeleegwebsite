@@ -31,6 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+        <link rel="shortcut icon" href="https://raw.githubusercontent.com/caye13/my-website-photos/main/beeicon.png" type="image/png"></link>
       </head>
       <body
         className={`${cormorantGaramond.variable} ${sourceSans3.variable}`}
