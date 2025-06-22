@@ -4,6 +4,7 @@ import "../styles/homepage.css"
 import ProjectsSection from "../components/ProjectSection";
 import Footer from '../components/HomePageFooter';
 import AboutSection from '../components/AboutSection';
+import Gallery from '../components/Gallery';
 
 const HomePage = () => {
   return (
@@ -28,6 +29,7 @@ const HomePage = () => {
                     <h2>Extras</h2>
                     <p>When I'm not coding, I hike, produce music, play solo violin concertos, sketch naturalism, play chess, and more.</p>
                 </div>
+                <Gallery />
             </section>
         </section>
         <Footer />

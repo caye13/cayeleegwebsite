@@ -1,0 +1,48 @@
+.gallery-container {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.gallery {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-image {
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  display: none;
+  object-fit: contain;
+}
+
+.gallery-image.active {
+  display: block;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+/* ✅ Place arrows just inside the image bounds */
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
