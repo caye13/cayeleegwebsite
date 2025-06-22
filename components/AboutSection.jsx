@@ -1,0 +1,120 @@
+"use client";
+import React, { useTransition, useState } from "react";
+import Image from "next/image";
+import TabButton from "./TabButton";
+
+const TAB_DATA = [
+  {
+    title: "Coursework",
+    id: "coursework",
+    content: (
+      <ul className="space-y-6">
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Multivariable Calculus, Differential Equations, Linear Algebra, Statistics and Probability, Discrete Mathematics, Mechanics and Thermodynamics
+        </li>
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Data Structures and Object-Oriented Programming, Algorithms and Theory of Computing, Principles of Software Engineering, Machine Learning
+        </li>
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Business Economics, Financial and Managerial Accounting, Marketing, and Operations Management
+        </li>
+      </ul>
+    ),
+  },
+  {
+    title: "Skills",
+    id: "skills",
+    content: (
+      <ul className="space-y-6">
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Programming Languages: Python, Java, JavaScript, C++, SQL, R
+        </li>
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Full Stack Development: HTML, CSS, React, Node.js, Next.js, ExpressJS
+        </li>
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Mobile Development: React Native, Swift
+        </li>
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Database Management: MySQL, MongoDB, PostgreSQL
+        </li>
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Machine Learning: Scikit-learn, TensorFlow
+        </li>
+      </ul>
+    ),
+  },
+  {
+    title: "Certifications",
+    id: "certifications",
+    content: (
+      <ul className="space-y-6">
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Google Cybersecurity Certification
+        </li>
+        {/* <li>Google Professional Cloud Developer</li> */}
+      </ul>
+    ),
+  },
+];
+
+const AboutSection = () => {
+  const [tab, setTab] = useState("coursework");
+  const [isPending, startTransition] = useTransition();
+
+  const handleTabChange = (id) => {
+    startTransition(() => {
+      setTab(id);
+    });
+  };
+
+  return (
+    <section className="about text-red-950 py-24" id="about">
+      <div className="mx-auto px-8 xl:px-16">
+        <div className="grid lg:grid-cols-2 gap-20 items-start">
+          <div className="flex flex-col h-full">
+            <p className="intro text-2xl lg:text-3xl font-400 text-red-950 leading-relaxed tracking-relaxed">
+              I'm a student studying Computer Science, Business Administration, and Mathematics at the University of Southern California.
+            </p>
+          </div>
+          <div className="space-y-16">
+            <div className="space-y-12">            
+              <p className="text-xl text-[#221516] font-450 leading-relaxed">
+                Currently exploring the crisscrossing of my interests in cybersecurity and artificial intelligence.
+              </p>
+            </div>
+            
+            <div className="space-y-12">
+              <div className="flex gap-8">
+                {TAB_DATA.map((tabData) => (
+                  <TabButton
+                    key={tabData.id}
+                    selectTab={() => handleTabChange(tabData.id)}
+                    active={tab === tabData.id}
+                    className={`text-lg font-350 transition-all duration-300 ${
+                      tab === tabData.id 
+                        ? 'text-red-950 font-medium' 
+                        : 'text-red-700 hover:text-red-900'
+                    }`}
+                  >
+                    {tabData.title}
+                  </TabButton>
+                ))}
+              </div>
+              
+              <div className="min-h-[300px] py-8">
+                <div className={`transition-all duration-500 ${
+                  isPending ? 'opacity-40 transform translate-y-2' : 'opacity-100 transform translate-y-0'
+                }`}>
+                  {TAB_DATA.find((t) => t.id === tab).content}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default AboutSection;
