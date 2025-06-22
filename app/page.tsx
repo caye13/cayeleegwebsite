@@ -5,6 +5,7 @@ import ProjectsSection from "../components/ProjectSection";
 import Footer from '../components/HomePageFooter';
 import AboutSection from '../components/AboutSection';
 import Gallery from '../components/Gallery';
+import Link from 'next/link';
 
 const HomePage = () => {
   return (
@@ -28,6 +29,7 @@ const HomePage = () => {
                 <div>
                     <h2>Extras</h2>
                     <p>When I'm not coding, I hike, produce music, play solo violin concertos, sketch naturalism, play chess, and more.</p>
+                    <Link href="/interests" className='font-medium underline'>Take a look</Link>
                 </div>
                 <Gallery />
             </section>

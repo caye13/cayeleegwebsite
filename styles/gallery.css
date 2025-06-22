@@ -2,6 +2,7 @@
   position: relative;
   width: fit-content;
   margin: 0 auto;
+  padding-top: 2rem;
 }
 
 .gallery {
@@ -12,13 +13,20 @@
 }
 
 .gallery-image {
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 600px;
+  max-height: 600px;
   width: auto;
   height: auto;
   display: none;
   object-fit: contain;
 }
+@media (max-width: 700px) {
+    .gallery-image {
+        max-width: 300;
+        max-height: 300px;
+    }
+}
+
 
 .gallery-image.active {
   display: block;
