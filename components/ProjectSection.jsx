@@ -62,7 +62,7 @@ const projectsData = [
     id: 6,
     title: "Personal Website",
     description: "This site!",
-    // image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/website.mp4",
+    image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/website.gif",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
