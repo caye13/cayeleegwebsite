@@ -5,6 +5,32 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
+    title: "Skills",
+    id: "skills",
+    content: (
+      <ul className="space-y-6">
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Programming Languages: C++, Python, Java, JavaScript, SQL, R, TypeScript
+        </li>
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Full Stack Development : HTML, CSS, React, Node.js, Next.js, ExpressJS, Tailwind CSS, Flask, Git
+        </li>
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Mobile Development: React Native, Swift
+        </li>
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Database Management: MySQL, MongoDB, PostgreSQL, Prisma
+        </li>
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Machine Learning: Scikit-learn, TensorFlow, PyTorch, Jupyter Notebooks, Keras, NumPy, Pandas, Matplotlib
+        </li>
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+           UI/UX: Figma, Tailwind CSS
+        </li>
+      </ul>
+    ),
+  },
+  {
     title: "Coursework",
     id: "coursework",
     content: (
@@ -17,29 +43,6 @@ const TAB_DATA = [
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
           Business Economics, Financial and Managerial Accounting, Marketing, and Operations Management
-        </li>
-      </ul>
-    ),
-  },
-  {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul className="space-y-6">
-        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          Programming Languages: Python, Java, JavaScript, C++, SQL, R
-        </li>
-        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          Full Stack Development: HTML, CSS, React, Node.js, Next.js, ExpressJS
-        </li>
-        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          Mobile Development: React Native, Swift
-        </li>
-        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          Database Management: MySQL, MongoDB, PostgreSQL
-        </li>
-        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          Machine Learning: Scikit-learn, TensorFlow
         </li>
       </ul>
     ),
@@ -59,7 +62,7 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("coursework");
+  const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
