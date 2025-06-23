@@ -5,9 +5,9 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 const cappiInfo = (
   <>
-    <br />
+    <br></br>
     <a href="https://cappillen.com" target="_blank" rel="noopener noreferrer" className="text-red-950 underline">
-      Cappillen Lee
+    Cappillen Lee
     </a>
   </>
 );
@@ -53,7 +53,7 @@ const projectsData = [
     title: "Monte Carlo Poker Estimation",
     description:(
       <>
-        Using Monte Carlo simulations to estimate the probabilities of different boards in poker. Player has options to randomize their hand or enter a given hand at each stage of the game as well as enter the number of players still at the table. Project collaboration with my brother,
+        Using Monte Carlo simulations to estimate the probabilities of different boards in poker. Player has options to randomize their hand or enter a given hand at each stage of the game as well as enter the number of players still at the table. Project collaboration with my brother, 
         {cappiInfo}
       </>
     ),
