@@ -23,8 +23,8 @@
 }
 @media (max-width: 700px) {
     .gallery-image {
-        max-width: 300;
-        max-height: 300px;
+        max-width: 200;
+        max-height: 200px;
     }
 }
 
@@ -47,7 +47,6 @@
   border-radius: 5px;
 }
 
-/* ✅ Place arrows just inside the image bounds */
 .left-arrow {
   left: 10px;
 }

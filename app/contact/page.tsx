@@ -18,7 +18,7 @@ const linkColor = '#FBF7F3';
                     <a className="icon-glow" href="https://x.com/cayeleeg" target="_blank" rel="noopener noreferrer" aria-label="Twitter" style={{ color: linkColor }}>
                         <i className="bi bi-twitter"></i>
                     </a>
-                    <a className="icon-glow" href="https://www.linkedin.com/in/caye-lee-b21540229/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{ color: linkColor }}>
+                    <a className="icon-glow" href="https://www.linkedin.com/in/caye-lee-g" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{ color: linkColor }}>
                         <i className="bi bi-linkedin"></i>
                     </a>
                     <a className="icon-glow" href="https://github.com/caye13" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style={{ color: linkColor }}>
