@@ -3,6 +3,14 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
+const cappiInfo = (
+  <>
+    <br />
+    <a href="https://cappillen.com" target="_blank" rel="noopener noreferrer" className="text-red-950 underline">
+      Cappillen Lee
+    </a>
+  </>
+);
 const projectsData = [
   // {
   //   id: 1,
@@ -43,7 +51,12 @@ const projectsData = [
   {
     id: 4,
     title: "Monte Carlo Poker Estimation",
-    description: "Using Monte Carlo simulations to estimate the probabilities of different boards in poker. Player has options to randomize their hand or enter a given hand at each stage of the game as well as enter the number of players still at the table.",
+    description:(
+      <>
+        Using Monte Carlo simulations to estimate the probabilities of different boards in poker. Player has options to randomize their hand or enter a given hand at each stage of the game as well as enter the number of players still at the table. Project collaboration with my brother,
+        {cappiInfo}
+      </>
+    ),
     image: "/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
