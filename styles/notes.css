@@ -11,16 +11,16 @@ body {
   flex-direction: column;
   /* background-color: #FCF8F5; */
   /* background-color: #FBF7F3; */
-  background-color: #FDF5E6;
+  background-color: #f5e8d0;
   color: #3B3330;
 }
 
 footer {
   background-color: #3B3330;
-  color: #5A4D4A;
+  color: #f5e8d0;
 }
 
-.title {
+.notesPageTitle {
   margin-top: 1rem;
 }
 
@@ -94,13 +94,19 @@ footer {
 .dark{
     /* background-color: #231e1d; */
     background-color: #3B3330;
-    color: #FBF7F3;
+    color: #f5e8d0;
 }
 .dark footer {
-    background-color: #FDF5E6;
+    background-color: #f5e8d0;
+    color: #5A4D4A;
 }
 
-.icon-glow {
+.notesFooteNav {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.notesPageicon-glow {
     width: 3rem; /* w-12 */
     height: 3rem; /* h-12 */
     border-radius: 50%;
@@ -110,7 +116,7 @@ footer {
     transition: all 0.3s ease;
 }
 
-.icon-glow:hover {
+.notesPageicon-glow:hover {
     box-shadow: 
         0 13px 52px #FDF5E6,
         0 0 0 0 #FDF5E6;

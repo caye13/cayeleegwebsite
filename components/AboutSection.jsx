@@ -9,22 +9,22 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="space-y-6">
-        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+        <li className="text-red-950 leading-tight text-lg font-300 list-disc">
           Programming Languages: C++, Python, Java, JavaScript, SQL, R, TypeScript
         </li>
-        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+        <li className="text-red-950 leading-tight text-lg font-300 list-disc">
           Full Stack Development : HTML, CSS, React, Node.js, Next.js, ExpressJS, Tailwind CSS, Flask, Git
         </li>
-        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+        <li className="text-red-950 leading-tight text-lg font-350 list-disc">
           Mobile Development: React Native, Swift
         </li>
-        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+        <li className="text-red-950 leading-tight text-lg font-350 list-disc">
           Database Management: MySQL, MongoDB, PostgreSQL, Prisma
         </li>
-        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+        <li className="text-red-950 leading-tight text-lg font-350 list-disc">
           Machine Learning: Scikit-learn, TensorFlow, PyTorch, Jupyter Notebooks, Keras, NumPy, Pandas, Matplotlib
         </li>
-        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+        <li className="text-red-950 leading-tight text-lg font-350 list-disc">
            UI/UX: Figma, Tailwind CSS
         </li>
       </ul>
@@ -74,19 +74,16 @@ const AboutSection = () => {
   return (
     <section className="about text-red-950 py-24" id="about">
       <div className="mx-auto px-8 xl:px-16">
-        <div className="grid lg:grid-cols-2 gap-20 items-start">
+        <div className="grid lg:grid-cols-2 gap-9 items-start">
           <div className="flex flex-col h-full">
-            <p className="intro text-2xl lg:text-3xl font-400 text-red-950 leading-relaxed tracking-relaxed">
+            <p className="intro text-2xl lg:text-2xl font-400 text-red-950 leading-relaxed tracking-relaxed">
               I'm a student studying Computer Science, Business Administration, and Mathematics at the University of Southern California.
             </p>
-          </div>
-          <div className="space-y-16">
-            <div className="space-y-12">            
-              <p className="text-xl text-[#221516] font-450 leading-relaxed">
+            <p className="text-xl text-[#221516] font-450 leading-relaxed">
                 Currently exploring the crisscrossing of my interests in cybersecurity and artificial intelligence.
               </p>
-            </div>
-            
+          </div>
+          <div className="space-y-16">
             <div className="space-y-12">
               <div className="flex gap-8">
                 {TAB_DATA.map((tabData) => (

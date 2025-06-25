@@ -1,10 +1,12 @@
 // components/Footer.tsx
+import { nav } from 'framer-motion/client';
 import Link from 'next/link';
 import React from 'react';
 
 const Footer: React.FC = () => {
   const bgColor = '#3B3330'; 
   const textColor = '#5A4D4A';
+  const navColor ='#FBF7F3';
   const linkColor = '#5A4D4A'; 
   const heartColor = '#E57373';
 
@@ -21,34 +23,34 @@ const Footer: React.FC = () => {
         </div>
 
         {/* nav links */}
-        <nav className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-lg">
-          <Link href="/" className="hover:font-bold" style={{ color: linkColor }}>
+        <nav className="flex flex-wrap justify-center gap-x-5 gap-y-3 text-lg">
+          <Link href="/" className="hover:font-bold notesFooteNav">
             home
           </Link>
-          <Link href="/interests" className="hover:font-bold" style={{ color: linkColor }}>
+          <Link href="/interests" className="hover:font-bold notesFooteNav">
             interests
           </Link>
-          <Link href="/photos" className="hover:font-bold" style={{ color: linkColor }}>
+          <Link href="/photos" className="hover:font-bold notesFooteNav">
             photos
           </Link>
-          <Link href="/notes" className="hover:font-bold" style={{ color: linkColor }}>
+          <Link href="/notes" className="hover:font-bold notesFooteNav">
             notes
           </Link>
-          <Link href="/contact" className="hover:font-bold" style={{ color: linkColor }}>
+          <Link href="/contact" className="hover:font-bold notesFooteNav">
             contact
           </Link>
         </nav>
-        <div className="flex space-x-7 text-3xl">
-          <a className="icon-glow" href="https://x.com/cayeleeg" target="_blank" rel="noopener noreferrer" aria-label="Twitter" style={{ color: linkColor }}>
+        <div className="flex space-x-7 gap-x-8 text-3xl">
+          <a className="notesPageicon-glow" href="https://x.com/cayeleeg" target="_blank" rel="noopener noreferrer" aria-label="Twitter" style={{ color: linkColor }}>
             <i className="bi bi-twitter"></i>
           </a>
-          <a className="icon-glow" href="https://www.linkedin.com/in/caye-lee-g" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{ color: linkColor }}>
+          <a className="notesPageicon-glow" href="https://www.linkedin.com/in/caye-lee-g" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{ color: linkColor }}>
             <i className="bi bi-linkedin"></i>
           </a>
-          <a className="icon-glow" href="https://github.com/caye13" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style={{ color: linkColor }}>
+          <a className="notesPageicon-glow" href="https://github.com/caye13" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style={{ color: linkColor }}>
             <i className="bi bi-github"></i>
           </a>
-          <a className="icon-glow" href="mailto:cayeleeg@gmail.com" target='_blank' rel="noopener noreferrer" aria-label="Email" style={{ color: linkColor }}>
+          <a className="notesPageicon-glow" href="mailto:cayeleeg@gmail.com" target='_blank' rel="noopener noreferrer" aria-label="Email" style={{ color: linkColor }}>
             <i className='bi bi-envelope-fill' style={{ color: linkColor }}></i>
           </a>
         </div>

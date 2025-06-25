@@ -76,7 +76,7 @@
     margin: 0 auto;
   }
 }
-.icon-glow {
+.contactPageicon-glow {
     width: 5rem; 
     height: 2rem; 
     border-radius: 50%;
@@ -87,6 +87,6 @@
     margin: 1rem;
 }
 
-.icon-glow:hover {
+.contactPageicon-glow:hover {
     transform: translateY(-4px);
 }
