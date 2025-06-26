@@ -9,22 +9,22 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="space-y-6">
-        <li className="text-red-950 leading-tight text-lg font-300 list-disc">
+        <li className="text-red-950 leading-relaxed text-lg font-300 list-disc">
           Programming Languages: C++, Python, Java, JavaScript, SQL, R, TypeScript
         </li>
-        <li className="text-red-950 leading-tight text-lg font-300 list-disc">
+        <li className="text-red-950 leading-relaxed text-lg font-300 list-disc">
           Full Stack Development : HTML, CSS, React, Node.js, Next.js, ExpressJS, Tailwind CSS, Flask, Git
         </li>
-        <li className="text-red-950 leading-tight text-lg font-350 list-disc">
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
           Mobile Development: React Native, Swift
         </li>
-        <li className="text-red-950 leading-tight text-lg font-350 list-disc">
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
           Database Management: MySQL, MongoDB, PostgreSQL, Prisma
         </li>
-        <li className="text-red-950 leading-tight text-lg font-350 list-disc">
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
           Machine Learning: Scikit-learn, TensorFlow, PyTorch, Jupyter Notebooks, Keras, NumPy, Pandas, Matplotlib
         </li>
-        <li className="text-red-950 leading-tight text-lg font-350 list-disc">
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
            UI/UX: Figma, Tailwind CSS
         </li>
       </ul>
@@ -75,24 +75,8 @@ const AboutSection = () => {
     <section className="about text-red-950 py-24" id="about">
       <div className="mx-auto px-8 xl:px-16">
         <div className="grid lg:grid-cols-2 gap-10 items-start">
-          <div className="flex flex-col h-full">
-            <p className="intro text-2xl lg:text-2xl font-400 text-red-950 leading-relaxed tracking-relaxed">
-              I'm a student studying Computer Science and Business Administration at the University of Southern California.
-            </p>
-            <ul className="" style={{ paddingLeft: "3rem", listStyleType: "circle" }}>
-              <li className="text-xl text-[#221516] font-300 leading-normal">
-                Currently coding a couple fun projects: poker simulator, spotify blender
-              </li>
-              <li className="text-xl text-[#221516] font-300 leading-normal">
-                Exploring the crisscrossing of CV/analyzing images and NLP/summarizing privacy policies
-              </li>
-              <li className="text-xl text-[#221516] font-300 leading-normal"> 
-                Working my way through pwn.college
-              </li> 
-              <li className="text-xl text-[#221516] font-300 leading-normal">
-                Finding time to sketch and expand my musical repertoire
-              </li>
-            </ul>
+          <div className="flex flex-col h-full justify-center">
+            <h1 style={{ fontWeight: 900 }}>Coding and Academics</h1>
           </div>
           <div className="space-y-16">
             <div className="space-y-12">

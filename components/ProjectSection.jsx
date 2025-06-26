@@ -27,8 +27,8 @@ const projectsData = [
     description: "Using natural language processing to make therapy more accessible, affordable, and convenient. Technical aspects: made a Seq2Seq model for therapist-patient interactions, tokenization for keyword identification (greetings, emotions), data cleaning and sentence-level pairing of questions (x) and answers (y), padding/trimming for uniform input length, using two LSTM networks within the Seq2Seq architecture, incorporating a transformer model with Multi-Headed Attention to grasp full conversational context and address ambiguity, and mapping words by similarity for enhanced understanding.",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/nlp.gif",
     tag: ["All", "AI"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "",
+    previewUrl: "",
   },
   // {
   //   id: 3,
@@ -59,8 +59,8 @@ const projectsData = [
     ),
     image: "/projects/4.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "",
+    previewUrl: "",
   },
   // {
   //   id: 5,
@@ -77,8 +77,8 @@ const projectsData = [
     description: "This site!",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/website.gif",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "",
+    previewUrl: "",
   },
 ];
 
