@@ -152,12 +152,13 @@ footer {
   white-space: normal;
   word-wrap: break-word;
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .title {
     font-size: 104px;
     /* background: url(https://raw.githubusercontent.com/caye13/my-website-photos/main/nameimg.jpeg) -800px -800px; */
     padding-top: 0;
     padding-bottom: 1rem;
+    padding-left: 1rem;
   }
   
 }
