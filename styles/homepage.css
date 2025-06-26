@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 .homepage {
+    font-family: var(--font-source-sans-3), sans-serif;
     background-color: #FBF7F3; /* #FBF7F3 */
     height: 100%;
     padding-left: 5rem;
@@ -56,9 +57,9 @@
 
 .homepage h1 {
   font-family: var(--font-source-sans-3), serif;
-  font-size: 2.25rem; /* text-4xl */
+  font-size: 2.25rem;
   text-align: center;
-  letter-spacing: -0.015em; /* tracking-tight */
+  letter-spacing: -0.015em;
 }
 
 .homepage h2 {
@@ -110,10 +111,10 @@ footer {
 }
 
 .icon-glow:hover {
-    box-shadow: 
-        0 13px 52px #FDF5E6,
-        0 0 0 0 #FDF5E6;
-    transform: translateY(-4px);
+  box-shadow: 
+      0 13px 52px #FDF5E6,
+      0 0 0 0 #FDF5E6;
+  transform: translateY(-4px);
 }
 
 .intro {
@@ -123,16 +124,15 @@ footer {
 }
 
 .title {
+  font-weight: 900;
   font-size: 104px;
   background: url(https://raw.githubusercontent.com/caye13/my-website-photos/main/nameimg.jpeg) -800px -800px;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: left;
-  font-weight: bolder;
   text-transform: uppercase;
   word-wrap: break-word;
-  font-weight: 900;
   -webkit-font-smoothing: antialiased;
   margin: 0px;
   padding-left: 2rem;

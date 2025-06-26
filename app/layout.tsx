@@ -4,7 +4,6 @@ import "../styles/globals.css"
 import Footer from '../components/NotesFooter';
 import Cursor from '../components/Cursor';
 
-
 const cormorantGaramond = Cormorant_Garamond({
   subsets: ["latin"],
   variable: "--font-cormorant-garamond",

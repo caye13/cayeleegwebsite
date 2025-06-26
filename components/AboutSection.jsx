@@ -74,14 +74,25 @@ const AboutSection = () => {
   return (
     <section className="about text-red-950 py-24" id="about">
       <div className="mx-auto px-8 xl:px-16">
-        <div className="grid lg:grid-cols-2 gap-9 items-start">
+        <div className="grid lg:grid-cols-2 gap-10 items-start">
           <div className="flex flex-col h-full">
             <p className="intro text-2xl lg:text-2xl font-400 text-red-950 leading-relaxed tracking-relaxed">
-              I'm a student studying Computer Science, Business Administration, and Mathematics at the University of Southern California.
+              I'm a student studying Computer Science and Business Administration at the University of Southern California.
             </p>
-            <p className="text-xl text-[#221516] font-450 leading-relaxed">
-                Currently exploring the crisscrossing of my interests in cybersecurity and artificial intelligence.
-              </p>
+            <ul className="" style={{ paddingLeft: "3rem", listStyleType: "circle" }}>
+              <li className="text-xl text-[#221516] font-300 leading-normal">
+                Currently coding a couple fun projects: poker simulator, spotify blender
+              </li>
+              <li className="text-xl text-[#221516] font-300 leading-normal">
+                Exploring the crisscrossing of CV/analyzing images and NLP/summarizing privacy policies
+              </li>
+              <li className="text-xl text-[#221516] font-300 leading-normal"> 
+                Working my way through pwn.college
+              </li> 
+              <li className="text-xl text-[#221516] font-300 leading-normal">
+                Finding time to sketch and expand my musical repertoire
+              </li>
+            </ul>
           </div>
           <div className="space-y-16">
             <div className="space-y-12">

@@ -10,7 +10,7 @@ import Link from 'next/link';
 const HomePage = () => {
   return (
     <>
-        <section className='homepage'>
+        <section className='homepage font-sourceSans3'>
             <section className="mx-auto text-center">
                 <NavBar />
             </section>
@@ -20,7 +20,7 @@ const HomePage = () => {
             {/* </header> */}
             {/* </section> */}
             <AboutSection />
-            <section className='projects'>
+            <section className='projects font-sourceSans3'>
                 <div>       
                     <ProjectsSection /> 
                 </div>

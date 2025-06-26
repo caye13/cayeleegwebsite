@@ -24,7 +24,7 @@ const projectsData = [
   {
     id: 2,
     title: "AI Therapist",
-    description: "Using natural language processing to make therapy more accessible, affordable, and convenient. Technical aspects: developed a Seq2Seq model for therapist-patient interactions, tokenization for keyword identification (greetings, emotions), data cleaning and sentence-level pairing of questions (x) and answers (y), padding/trimming for uniform input length, utilizing two LSTM networks within the Seq2Seq architecture, incorporating a transformer model with Multi-Headed Attention to grasp full conversational context and address ambiguity, and mapping words by similarity for enhanced understanding.",
+    description: "Using natural language processing to make therapy more accessible, affordable, and convenient. Technical aspects: made a Seq2Seq model for therapist-patient interactions, tokenization for keyword identification (greetings, emotions), data cleaning and sentence-level pairing of questions (x) and answers (y), padding/trimming for uniform input length, using two LSTM networks within the Seq2Seq architecture, incorporating a transformer model with Multi-Headed Attention to grasp full conversational context and address ambiguity, and mapping words by similarity for enhanced understanding.",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/nlp.gif",
     tag: ["All", "AI"],
     gitUrl: "/",
