@@ -26,16 +26,19 @@ const HomePage = () => {
                             Studying Computer Science and Business Administration at the University of Southern California.
                         </li>
                         <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
-                            <strong>Currently coding:</strong> poker simulator, spotify blender, CV Satellite Image Analysis
+                            Currently coding: <strong>CV Satellite Image Analysis</strong>, poker simulator, spotify blender 
                         </li>
                         {/* <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
                             Exploring the crisscrossing of CV/analyzing images and NLP/summarizing privacy policies
                         </li> */}
                         <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed"> 
                             Working my way through pwn.college
-                        </li> 
-                        <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
+                        </li>
+                        {/* <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
                             Finding time to sketch and expand my musical repertoire
+                        </li> */}
+                        <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
+                            Finding time for all of my <Link href="/interests" className='font-medium underline'>interests</Link>
                         </li>
                     </ul>
                 </div>
