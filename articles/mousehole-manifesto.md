@@ -1,7 +1,7 @@
 ---
 title: "mousehole manifesto"
 category: "reviews"
-date: "06-04-2025"
+date: "06-26-2025"
 ---
 # Mousehole Manifesto: Dostoevsky’s Notes from the Underground
 
