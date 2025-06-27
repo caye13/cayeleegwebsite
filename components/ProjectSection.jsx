@@ -12,15 +12,15 @@ const cappiInfo = (
   </>
 );
 const projectsData = [
-  // {
-  //   id: 1,
-  //   title: "Computer Vision Satellite Image Analysis",
-  //   description: "Analysis of cargo movement in high forestation areas using computer vision depth estimation, object tracking, segmentation, and foreground detection/classification. Intended purpose is to combat human trafficking",
-  //   image: "/projects/1.png",
-  //   tag: ["All", "AI"],
-  //   gitUrl: "/",
-  //   previewUrl: "/",
-  // },
+  {
+    id: 1,
+    title: "Computer Vision Satellite Image Analysis",
+    description: "Analysis of cargo movement in high forestation areas using computer vision. General aspects: depth estimation, multi-temporal object tracking, precise semantic and instance segmentation of ground features, and foreground change detection and multi-class object classification, specifically designed to identify diverse cargo types, vehicles, and associated activities within densely vegetated or complex terrain. Intended purpose is to provide actionable geospatial insights that can identify and monitor human trafficking operations in high-risk areas.",
+    image: "",
+    tag: ["All", "AI"],
+    gitUrl: "",
+    previewUrl: "",
+  },
   {
     id: 2,
     title: "AI Therapist",
