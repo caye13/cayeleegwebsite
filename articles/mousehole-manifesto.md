@@ -21,13 +21,13 @@ He rejects everything: morality, society as a whole, connection, basic human dec
 
 > “An intelligent man of the nineteenth century must be, is morally bound to be, an essentially characterless creature.”
 
-His rejection of everything is how he shields himself from confronting his own insignificance. By scorning everything, he convinces himself he’s above it. But that leaves him bitter, isolated, and stuck in a life shaped more by resentment than any real belief. He’s proud of his so called freedom, but it’s the kind that keeps him completely alone. 
+His rejection of everything is how he shields himself from confronting his own insignificance. By dismissing everything, he convinces himself he’s above it. But that leaves him bitter, isolated, and stuck in a life shaped more by resentment than any real belief. He’s proud of his so called freedom, but it’s the kind that keeps him completely alone. 
 
 His nihilism is protecting his fragile self-image as a misunderstood and suffering soul. 
 
 ## Frangible Facade of a Superior Mind
 
-He uses intellect as armor, convincing himself he’s smarter than everyone else. His superiority complex feels hollow, like something he clings to so he doesn’t have to face the possibility that he’s just like everyone else. As strong as a tin armor might be, it is still only a thin layer above what is actually him. He isn’t actually interested in being understood. He wants to feel too complex to be understood, which is a convenient way for him to avoid vulnerability. 
+He uses intellect as armor, convincing himself he’s smarter than everyone else. His superiority complex feels hollow, like something he clings to so he doesn’t have to face the possibility that he’s just like everyone else. Even the toughest tin armor is just a thin layer masking what’s underneath. He isn’t actually interested in being understood. He wants to feel too complex to be understood, which is a convenient way for him to avoid vulnerability. 
 
 This gap between how he sees himself and how he actually is such a compelling part of the book because he thinks his intelligence is what isolates him, but really, it’s his refusal to be human on human terms. He holds onto the idea of being prodigious, not really because he truly believes it, but because the alternative of this delusion would be to acknowledge his ordinariness.
 
