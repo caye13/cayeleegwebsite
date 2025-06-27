@@ -24,6 +24,32 @@ footer {
   margin-top: 1rem;
 }
 
+.articleItemBoxes {
+  @apply flex items-center justify-between p-5 border-2 border-emerald-950 rounded-lg hover:shadow-md transition duration-150 m-2;
+}
+
+.dark .articleItemBoxes {
+  @apply dark:border-slate-200;
+}
+
+.articleItemTitle {
+  @apply text-xl font-bold text-left;
+}
+
+.articleItemSubtitle {
+  @apply text-sm text-slate-600 lowercase tracking-wide
+}
+
+.dark .articleItemSubtitle {
+  @apply dark:text-slate-100;
+}
+
+.articleItemDate {
+  @apply text-sm text-slate-600;
+}
+.dark .articleItemDate {
+  @apply dark:text-slate-100;
+}
 .article {
   display: flex;
   flex-direction: column;
@@ -126,11 +152,22 @@ footer {
 .articleLinks {
   text-decoration: none;
   margin-top: 1rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+@media screen and (max-width: 900px) {
+  .articleLinks {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
 }
 
 .articleLinks:hover {
   transform: translate(0, -2px);
-  font-weight: 600;
+  font-weight: 900;
+  color: #6b644f;
+  transition: all 150ms;
 }
 
 /* @import "tailwindcss";
