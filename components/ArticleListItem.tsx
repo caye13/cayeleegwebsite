@@ -60,6 +60,7 @@ const formatDate = (dateString: string): string => {
         </div>
         <div className="ml-4 flex-shrink-0">
           <span className="articleItemDate">
+            Stardate:{" "}
             {formatDate(article.date)}
           </span>
         </div>
