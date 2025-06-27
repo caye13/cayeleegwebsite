@@ -5,7 +5,7 @@ date: "06-04-2025"
 ---
 # Mousehole Manifesto: Dostoevsky’s Notes from the Underground
 
-### Ouch, Dostoevsky really twisted the knife here. 
+### Ouch. Dostoevsky really twisted the knife here. 
 
 ## The Hobbit Hole of Overthinking
 
@@ -38,7 +38,9 @@ Reading this reminded me of another literary loner: Holden Caulfield. *The Catch
 Neither of them really participates in their own lives. They watch and judge and they build walls to protect their egos, then wonder why they feel so alone. Holden still feels redeemable. But if no one ever reached him and if he kept retreating further into himself, he could easily turn into the more extreme and darker ancestor, the Underground Man, decending into a life more bitter, extreme, and more afraid to be seen.
 
 ## Notes from the Underground is a reminder of what happens when introspection traps your mind
+
 > And he remains a "mouse in his hole."
+
 For some of us, this mental "underground" isn’t that far away. Maybe it's less about being "phony", more about the fear of being seen too clearly. As exhausting and infuriating as the Underground Man is, his internal war with himself and with the world is very relatable and familiar. The mousehole he lives in isn’t just a space. It’s a mindset. One that’s easy to fall into and hard to escape.
 
 ## So...  
