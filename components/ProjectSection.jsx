@@ -16,7 +16,7 @@ const projectsData = [
     id: 1,
     title: "Computer Vision Satellite Image Analysis",
     description: "Analysis of cargo movement in high forestation areas using computer vision. General aspects: depth estimation, multi-temporal object tracking, precise semantic and instance segmentation of ground features, and foreground change detection and multi-class object classification, specifically designed to identify diverse cargo types, vehicles, and associated activities within densely vegetated or complex terrain. Intended purpose is to provide actionable geospatial insights that can identify and monitor human trafficking operations in high-risk areas.",
-    image: "",
+    image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/cvimg.png",
     tag: ["All", "AI"],
     gitUrl: "",
     previewUrl: "",
@@ -57,7 +57,7 @@ const projectsData = [
         {cappiInfo}
       </>
     ),
-    image: "/projects/4.png",
+    image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/poker.gif",
     tag: ["All", "Mobile"],
     gitUrl: "",
     previewUrl: "",
@@ -78,6 +78,15 @@ const projectsData = [
   },
   {
     id: 6,
+    title: "Automated Phishing Email Identification and Analysis",
+    description: "Using Chronicle's UDM-normalized telemetry, suspicious domains, classified by observed behavior and reputation feeds, are targeted to multi-dimensional analysis. That includes instant threat intelligence correlation via VT Context, historical prevalence charting, and passive DNS resolution mapping to identify co-located malicious infrastructure. Chronological event correlation revealed critical HTTP POST requests to /login.php across affected assets, signifying successful credential exfiltration attempts. Iterative pivoting on resolved IP addresses and sibling domains, a test broad-scale attack surface was delineated, allowing proactive remediation and incident response containment strategies.",
+    image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/cybProj.png",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "",
+  },
+  {
+    id: 7,
     title: "Personal Website",
     description: "This site!",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/website.gif",
