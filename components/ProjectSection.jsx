@@ -64,7 +64,7 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Spotify Playlist Merger",
+    title: "Spotify Blender",
     description: (
       <>
         Given two users, this app uses the Spotify API to list all songs from users' profile playlists then has an algorithm find similar tracks and same artists to create one playlist. Ccass algorithm is used to calculate musical compatibility between two users based on genre, shared artists and tracks. Project collaboration with my brother,

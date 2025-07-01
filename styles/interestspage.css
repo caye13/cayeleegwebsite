@@ -30,6 +30,20 @@
     padding-right: 1rem;
     gap: 4rem;
 }
+.scrapbookContainer::-webkit-scrollbar {
+    --webkit-appearance: none;
+    height: 8px;
+}
+
+.scrapbookContainer::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.scrapbookContainer::-webkit-scrollbar-track {
+  background: transparent;
+}
  .scrapbookContainer img {
   object-fit: cover;
   border-radius: 5px;
