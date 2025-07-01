@@ -5,6 +5,8 @@ import Footer from '@/components/HomePageFooter'
 import Link from 'next/link'
 import Image from 'next/image';
 import { MdHeight } from 'react-icons/md'
+import BandEvents from '../../components/BandEvents';
+import '../../styles/bandevents.css'
 
 const InterestsPage = () => {
     return (
@@ -160,6 +162,9 @@ const InterestsPage = () => {
                                         </div>
                                     </div>
                                 </div>    
+                            </div>
+                            <div>
+                                <BandEvents />
                             </div>
                             <div className="spotifyGrid">
                                 <div>
