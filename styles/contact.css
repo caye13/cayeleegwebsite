@@ -90,3 +90,8 @@
 .contactPageicon-glow:hover {
     transform: translateY(-4px);
 }
+
+.contactPageNav {
+    background-color: rgb(3, 31, 0);
+    -webkit-text-fill-color: #adb5ad;
+}

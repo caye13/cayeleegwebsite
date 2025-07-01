@@ -6,7 +6,7 @@ export default function ContactPage() {
 const linkColor = '#FBF7F3'; 
   return (
     <section>
-        <section className="mx-auto text-center">
+        <section className="mx-auto text-center contactPageNav">
             <NavBar />
         </section>
         <div className="contact-page">
