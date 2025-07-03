@@ -36,6 +36,7 @@ import ArticleItemList from "@/components/ArticleListItem"
 import { getCategorisedArticles } from "@/lib/articles"
 import DarkModeToggle from "@/components/DarkModeToggle"
 import "../../styles/notes.css"
+import NavBar from "@/components/NavBar"
 
 const NotesPage = () => {
   const articles = getCategorisedArticles()
@@ -51,24 +52,28 @@ const NotesPage = () => {
     : []
 
   return (
-    <section className="mx-auto w-11/12 lg:w-1/2 mt-20 flex flex-col gap-16 mb-20 text-center">
-      <header className="notesPageTitle font-sourceSans3 font-light text-6xl text-center">
-        <h1>captain's logs</h1>
-      </header>
-      <section className="mx-auto text-center">
-        <nav>
-          <DarkModeToggle />
-        </nav>
+    <>
+      <NavBar />
+      <section className="mx-auto w-11/12 lg:w-1/2 mt-20 flex flex-col gap-16 mb-20 text-center">
+        <header className="notesPageTitle font-sourceSans3 font-light text-6xl text-center">
+          <h1>captain's logs</h1>
+        </header>
+        <section className="mx-auto text-center">
+          <nav>
+            <DarkModeToggle />
+          </nav>
+        </section>
+        <section className="flex flex-col gap-6">
+          {flattenedArticles.map((article, index) => (
+            <ArticleItemList
+              key={`${article.id}-${index}`}
+              article={article}
+            />
+          ))}
+        </section>
       </section>
-      <section className="flex flex-col gap-6">
-        {flattenedArticles.map((article, index) => (
-          <ArticleItemList
-            key={`${article.id}-${index}`}
-            article={article}
-          />
-        ))}
-      </section>
-    </section>
+    </>
+    
   )
 }
 

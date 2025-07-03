@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { MdHeight } from 'react-icons/md'
 import BandEvents from '../../components/BandEvents';
 import '../../styles/bandevents.css'
+import WoodworkingSection from "../../components/WoodworkingSection"
 
 const InterestsPage = () => {
     return (
@@ -185,6 +186,7 @@ const InterestsPage = () => {
                             </div>
                         </div>
                     </section>
+                    <WoodworkingSection />
                 </div>
             <Footer />
         </section>
