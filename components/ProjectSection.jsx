@@ -74,7 +74,7 @@ const projectsData = [
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/spotifyblender.gif",
     tag: ["All", "Web"],
     gitUrl: "",
-    previewUrl: "",
+    previewUrl: "https://www.blendify.app/",
   },
   {
     id: 6,
