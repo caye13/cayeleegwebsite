@@ -170,11 +170,14 @@ const InterestsPage = () => {
                             <div className="spotifyGrid">
                                 <div>
                                     <h2>BAND SANITIZER EP</h2>
-                                    <div className="spotify-embed">
+                                    {/* <div className="spotify-embed">
                                         <iframe style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/track/2Pqjm1Ovy3M61VHWKstCs4?utm_source=generator" width="100%" height="152" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                                     </div> 
                                     <div className="spotify-embed">
                                         <iframe style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/track/6fFLo3AAfvS0hNhcgu33mu?utm_source=generator" width="100%" height="352" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                                    </div> */}
+                                    <div className='spotify-embed'>
+                                        <iframe style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/album/6F5dYv0UtmgM5hF0mXPAQJ?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                                     </div>
                                 </div>
                                 <div>

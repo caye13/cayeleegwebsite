@@ -26,7 +26,9 @@ const HomePage = () => {
                             Studying Computer Science and Business Administration at the University of Southern California.
                         </li>
                         <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
-                            Currently coding: <strong>CV Satellite Image Analysis</strong>, poker simulator, spotify blender 
+                            Currently coding: <strong>CV Satellite Image Analysis</strong>, spotify blender 
+                            <br></br>
+                            In the backlog: poker simulator
                         </li>
                         {/* <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
                             Exploring the crisscrossing of CV/analyzing images and NLP/summarizing privacy policies
