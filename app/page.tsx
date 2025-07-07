@@ -26,7 +26,7 @@ const HomePage = () => {
                             Studying Computer Science and Business Administration at the University of Southern California.
                         </li>
                         <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
-                            Currently coding: <strong>CV Satellite Image Analysis</strong>, spotify blender 
+                            Currently coding: <strong>CV Satellite Image Analysis</strong>, <Link href="https://www.blendify.app/" className='font-medium underline'>spotify blender</Link> 
                             <br></br>
                             In the backlog: poker simulator
                         </li>
