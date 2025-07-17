@@ -92,14 +92,14 @@ const InterestsPage = () => {
                                 {/* Floating text block with violin pieces */}
                         </div>
                     </section>
-                    <section className='spotifyProfile'>
+                    {/* <section className='spotifyProfile'>
                         <h2>Music</h2>
                         <h3>Love music lmk what you think</h3>
                         <div className='playlists'>
                             <iframe style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/playlist/6DaWOBh6ZRW05u3L0lNVov?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                             <iframe style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/playlist/7LTfLWQngooOoynqWfbfdK?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         </div>
-                    </section>
+                    </section> */}
                     <section className="musicDiv">   
                         <div className="bandContent">
                             {/* <h1>Band Sanitizer</h1>
