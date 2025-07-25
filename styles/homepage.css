@@ -171,11 +171,37 @@ footer {
   padding-right: 2rem;
   font-size: 1.125rem;
 }
+.buttonContainer {
+  width: 95%;
+}
+.projButton {
+  background-color: #FBF7F3;
+  color: #450a0a;
+  border: 2px solid #450a0a;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.projButton:hover {
+  background-color: #450a0a;
+  color: #FBF7F3;
+  border-color: #FBF7F3;
+}
 @media (max-width: 1000px) {
   .projects {
     padding-top: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .projButton {
+    padding: 0.25rem 0.5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 }
 

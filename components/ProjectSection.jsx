@@ -17,7 +17,7 @@ const projectsData = [
     title: "Computer Vision Satellite Image Analysis",
     description: "Analysis of cargo movement in high forestation areas using computer vision. General aspects: depth estimation, multi-temporal object tracking, precise semantic and instance segmentation of ground features, and foreground change detection and multi-class object classification, specifically designed to identify diverse cargo types, vehicles, and associated activities within densely vegetated or complex terrain. Intended purpose is to provide actionable geospatial insights that can identify and monitor human trafficking operations in high-risk areas.",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/cvimg.png",
-    tag: ["All", "AI"],
+    tag: ["All", "AI/ML", "☆"],
     gitUrl: "",
     previewUrl: "",
   },
@@ -26,7 +26,7 @@ const projectsData = [
     title: "AI Therapist",
     description: "Using natural language processing to make therapy more accessible, affordable, and convenient. Technical aspects: made a Seq2Seq model for therapist-patient interactions, tokenization for keyword identification (greetings, emotions), data cleaning and sentence-level pairing of questions (x) and answers (y), padding/trimming for uniform input length, using two LSTM networks within the Seq2Seq architecture, incorporating a transformer model with Multi-Headed Attention to grasp full conversational context and address ambiguity, and mapping words by similarity for enhanced understanding.",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/nlp.gif",
-    tag: ["All", "AI"],
+    tag: ["All", "AI/ML", "☆"],
     gitUrl: "https://github.com/caye13/ai_therapist",
     previewUrl: "https://github.com/caye13/ai_therapist",
   },
@@ -58,7 +58,7 @@ const projectsData = [
       </>
     ),
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/poker.gif",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Fun", "☆"],
     gitUrl: "https://github.com/calee14/monte-carlo-parley",
     previewUrl: "https://github.com/calee14/monte-carlo-parley",
   },
@@ -72,7 +72,7 @@ const projectsData = [
       </>
     ),
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/spotifyblender.gif",
-    tag: ["All", "Web"],
+    tag: ["All", "Fun", "☆"],
     gitUrl: "https://github.com/calee14/spotify-blender",
     previewUrl: "https://www.blendify.app/",
   },
@@ -81,7 +81,7 @@ const projectsData = [
     title: "Automated Phishing Email Identification and Analysis",
     description: "Using Chronicle's UDM-normalized telemetry, suspicious domains, classified by observed behavior and reputation feeds, are targeted to multi-dimensional analysis. That includes instant threat intelligence correlation via VT Context, historical prevalence charting, and passive DNS resolution mapping to identify co-located malicious infrastructure. Chronological event correlation revealed critical HTTP POST requests to /login.php across affected assets, signifying successful credential exfiltration attempts. Iterative pivoting on resolved IP addresses and sibling domains, a test broad-scale attack surface was delineated, allowing proactive remediation and incident response containment strategies.",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/cybProj.png",
-    tag: ["All", "Web"],
+    tag: ["All", "CybSec", "☆"],
     gitUrl: "",
     previewUrl: "",
   },
@@ -97,7 +97,7 @@ const projectsData = [
 ];
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All");
+  const [tag, setTag] = useState("☆");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -118,29 +118,37 @@ const ProjectsSection = () => {
     <section id="projects">
       <h2 className="text-4xl font-bold text-red-950 mt-4 mb-8 md:mb-12">
         Projects
-      </h2>      
-      {/* <div className="text-red-950 flex flex-row justify-center items-center gap-2 py-6">
-        <ProjectTag
-          onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Computer Vision"
-          isSelected={tag === "Computer Vision"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
-        />
-      </div> */}
+      </h2>   
+      <div className="buttonContainer">
+        <div className="text-red-950 flex flex-row justify-center items-center gap-2 py-6">
+          <ProjectTag
+            onClick={handleTagChange}
+            name="☆"
+            isSelected={tag === "☆"}
+          />
+          <ProjectTag
+            onClick={handleTagChange}
+            name="All"
+            isSelected={tag === "All"}
+          />
+          <ProjectTag
+            onClick={handleTagChange}
+            name="AI/ML"
+            isSelected={tag === "AI/ML"}
+          />
+          <ProjectTag
+            onClick={handleTagChange}
+            name="CybSec"
+            isSelected={tag === "CybSec"}
+          />
+          <ProjectTag
+            onClick={handleTagChange}
+            name="Fun"
+            isSelected={tag === "Fun"}
+          />
+        </div>
+      </div>   
+      
       <ul ref={ref} className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 p-4">
         {filteredProjects.map((project, index) => (
           <motion.li
@@ -148,7 +156,7 @@ const ProjectsSection = () => {
             variants={cardVariants}
             initial="initial"
             animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
+            transition={{ duration: 0.3, delay: index * 0.15 }}
           >
             <ProjectCard
               key={project.id}
