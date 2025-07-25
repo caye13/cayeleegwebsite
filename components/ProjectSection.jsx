@@ -27,8 +27,8 @@ const projectsData = [
     description: "Using natural language processing to make therapy more accessible, affordable, and convenient. Technical aspects: made a Seq2Seq model for therapist-patient interactions, tokenization for keyword identification (greetings, emotions), data cleaning and sentence-level pairing of questions (x) and answers (y), padding/trimming for uniform input length, using two LSTM networks within the Seq2Seq architecture, incorporating a transformer model with Multi-Headed Attention to grasp full conversational context and address ambiguity, and mapping words by similarity for enhanced understanding.",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/nlp.gif",
     tag: ["All", "AI"],
-    gitUrl: "",
-    previewUrl: "",
+    gitUrl: "https://github.com/caye13/ai_therapist",
+    previewUrl: "https://github.com/caye13/ai_therapist",
   },
   // {
   //   id: 3,
@@ -59,8 +59,8 @@ const projectsData = [
     ),
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/poker.gif",
     tag: ["All", "Mobile"],
-    gitUrl: "",
-    previewUrl: "",
+    gitUrl: "https://github.com/calee14/monte-carlo-parley",
+    previewUrl: "https://github.com/calee14/monte-carlo-parley",
   },
   {
     id: 5,
@@ -73,7 +73,7 @@ const projectsData = [
     ),
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/spotifyblender.gif",
     tag: ["All", "Web"],
-    gitUrl: "",
+    gitUrl: "https://github.com/calee14/spotify-blender",
     previewUrl: "https://www.blendify.app/",
   },
   {
@@ -91,8 +91,8 @@ const projectsData = [
     description: "This site!",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/website.gif",
     tag: ["All", "Web"],
-    gitUrl: "",
-    previewUrl: "",
+    gitUrl: "https://github.com/caye13/cayeleegwebsite",
+    previewUrl: "/",
   },
 ];
 
