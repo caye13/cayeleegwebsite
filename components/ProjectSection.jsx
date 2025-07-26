@@ -3,6 +3,8 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
+import { title } from "process";
+import { image } from "framer-motion/client";
 const cappiInfo = (
   <>
     <br></br>
@@ -35,21 +37,21 @@ const projectsData = [
   //   title: "Stock Price Predictor",
   //   description: "Predicting stock prices using historical data and machine learning algorithms.",
   //   image: "/projects/3.png",
-  //   tag: ["All", "AI"],
+  //   tag: ["All", "AI/ML", "☆"],
   //   gitUrl: "/",
   //   previewUrl: "/",
   // },
   // {
-  //   id: 3,
+  //   id: 4,
   //   title: "NLP Summarizer of Privacy Policies",
   //   description: "Summarizes the data taken by apps outlined in their intrusive privacy policies which are constructed to be unintelligible to non-legalese fluent users (the general audience)",
   //   image: "/projects/3.png",
-  //   tag: ["All", "AI"],
+  //   tag: ["All", "AI/ML", "☆"],
   //   gitUrl: "/",
   //   previewUrl: "/",
   // },
   {
-    id: 4,
+    id: 5,
     title: "Monte Carlo Poker Estimation",
     description:(
       <>
@@ -63,7 +65,7 @@ const projectsData = [
     previewUrl: "https://github.com/calee14/monte-carlo-parley",
   },
   {
-    id: 5,
+    id: 6,
     title: "Spotify Blender",
     description: (
       <>
@@ -77,7 +79,7 @@ const projectsData = [
     previewUrl: "https://www.blendify.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Automated Phishing Email Identification and Analysis",
     description: "Using Chronicle's UDM-normalized telemetry, suspicious domains, classified by observed behavior and reputation feeds, are targeted to multi-dimensional analysis. That includes instant threat intelligence correlation via VT Context, historical prevalence charting, and passive DNS resolution mapping to identify co-located malicious infrastructure. Chronological event correlation revealed critical HTTP POST requests to /login.php across affected assets, signifying successful credential exfiltration attempts. Iterative pivoting on resolved IP addresses and sibling domains, a test broad-scale attack surface was delineated, allowing proactive remediation and incident response containment strategies.",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/cybProj.png",
@@ -86,13 +88,85 @@ const projectsData = [
     previewUrl: "",
   },
   {
-    id: 7,
+    id: 8,
     title: "Personal Website",
-    description: "This site!",
+    description: "This site! Using Next.js and Tailwind CSS.",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/website.gif",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "Fun"],
     gitUrl: "https://github.com/caye13/cayeleegwebsite",
     previewUrl: "/",
+  },
+  {
+    id: 9,
+    title: "Breast Cancer Biopsy Classification",
+    description: "Used a logistic regression model for binary classification of breast cancer biopsies (malignant or benign) based on Wisconsin Diagnostic Breast Cancer (WDBC) dataset. The model uses ten features describing cell nucleus characteristics with the mean values of: radius of cancer cell, texture (variance of grayscale intensities), perimeter (total contour length), area (nuclear size), smoothness (variation in radial lengths), compactness, concavity (severity of concave portions of the contour), concave points, fractal dimension, and symmetry (axial symmetry). Then evaluates the model's performance using metrics: precision, recall, and accuracy for validation to prevent overfitting.",
+    image: "",
+    tag: ["All", "AI/ML"],
+    gitUrl: "https://github.com/caye13/breast_cancer_biopsy_classification_logistic_regression",
+    previewUrl: "https://github.com/caye13/breast_cancer_biopsy_classification_logistic_regression",
+  },
+  {
+    id: 10,
+    title: "Generative Adversarial Networks (GANs) for Image Generation",
+    description: "In this project, I worked with the foundational architecture and training of Generative Adversarial Networks (GANs) for image generation. I focused on involving two neural networks: a generator that learns to map random noise from a latent space to synthetic images, and a discriminator that acts as a binary classifier, distinguishing between real images from the dataset and fake images produced by the generator. The model also addresses the complexities in training GANs like issues with convergence, mode collapse (where the generator produces limited variety of outputs), and the difficulty in fine-tuning hyperparameters to achieve stable and high-quality image synthesis.",
+    image: "",
+    tag: ["All", "AI/ML"],
+    gitUrl: "https://github.com/caye13/generative_adversarial_networks",
+    previewUrl: "https://github.com/caye13/generative_adversarial_networks",
+  },
+  {
+    id: 11,
+    title: "Convolutional Neural Network for Self-driving Vehicle Dog Identification",
+    description: "Computer vision for autonomous vehicles to identify dogs on the road. I trained a classification model on image data using CNN architecture for dog detection and implemented model interpretability through  generation of saliency maps which visually highlight the specific pixel regions within a 32x32x3 input image that are most influential in the model's prediction. This provides insight into its decision making process.",
+    image: "",
+    tag: ["All", "AI/ML"],
+    gitUrl: "https://github.com/caye13/convolutional_neural_net_self_driving_cars",
+    previewUrl: "https://github.com/caye13/convolutional_neural_net_self_driving_cars",
+  },
+  {
+    id: 12,
+    title: "Yelp Review Sentiment Analysis",
+    description: "This is a sentiment analysis classifier for Yelp reviews to determine whether a review is positive or negative. This project implements an NLP pipeline. Technical aspects: extensive text preprocessing, such as tokenization, lemmatization (reducing words to their base forms), and removal of stop words using libraries like NLTK and SpaCy. Then text data is transformed into numerical features using vectorization, specifically CountVectorizer, to create a bag-of-words representation. A LogisticRegression model from sklearn.linear_model is trained for binary sentiment classification (positive/negative). I also experimented with word embeddings and vector analogies for understanding semantic relationships between words.",
+    image: "",
+    tag: ["All", "AI/ML"],
+    gitUrl: "https://github.com/caye13/yelp_review_classification",
+    previewUrl: "https://github.com/caye13/yelp_review_classification",
+  },
+  // {
+  //   id: 13,
+  //   title: "Yelp Review Sentiment Analysis",
+  //   description: "This is a sentiment analysis classifier for Yelp reviews to determine whether a review is positive or negative. Technical aspects: data preprocessing with tokenization to clean text and remove stopwords, vectorization using a CountVectorizer to create a bag-of-words model, training a logistic regression model on the vectorized data to classify the reviews, and I experimented with word embeddings and calculating word similarity and analogies to progress my model to a more advance NLP model.",
+  //   image: "",
+  //   tag: ["All", "AI/ML"],
+  //   gitUrl: "",
+  //   previewUrl: "https://github.com/caye13/yelp_review_classification",
+  // },
+  {
+    id: 14,
+    title: "Linear Regression for Car Price Prediction",
+    description: "Application of multivariate linear regression for predicting used car selling prices. The model is trained to find a linear relationship between a dependent variable, Selling_Price, and other independent features of the car (e.g., Present_Price, Kms_Driven, Fuel_Type, Seller_Type, Transmission, Owner). This project involves data analysis, model training, and visualizing the correlation between predicted and actual prices. It also uses the model's predictions to identify potential market anomalies, like 'best deals' (underpriced cars) and 'most overpriced' vehicles by comparing the predicted value against the actual selling price.",
+    image: "",
+    tag: ["All", "AI/ML"],
+    gitUrl: "https://github.com/caye13/car_price_linear_regression",
+    previewUrl: "https://github.com/caye13/car_price_linear_regression",
+  },
+  {
+    id: 15,
+    title: "Convolutional Neural Networks (CNNs) for Image Classification:",
+    description: "Application of CNNs, particularly in the context of a cat and dog image classification task. Aimed to address overfitting when training on small datasets (e.g., 2000 images). The solution is to emphasize data augmentation techniques: generating synthetic training data through image transformations like rotations, flips, zooms. This enhances the model's generalization capabilities and reduce overfitting, improving performance on unseen data.",
+    image: "",
+    tag: ["All", "AI/ML"],
+    gitUrl: "https://github.com/caye13/cat_vs_dog_classification",
+    previewUrl: "https://github.com/caye13/cat_vs_dog_classification",
+  },
+  {
+    id: 16,
+    title: "Streamlit Emotion Prediction App",
+    description: "Deployment of a deep learning model for real-time emotion prediction from images using Streamlit. It involves image preprocessing pipeline where input images are first decoded from byte arrays, resized to (48, 48) pixels using cv2.resize with cv2.INTER_LANCZOS4 interpolation for high-quality downsampling, converted to grayscale, and then normalized to a [0, 1] range. Then the preprocessed images are fed into a pre-trained convolutional neural network (CNN) model for inference, with predicted emotion scores visualized via Pandas DataFrames.",
+    image: "",
+    tag: ["All", "AI/ML"],
+    gitUrl: "https://github.com/caye13/streamlit_practice",
+    previewUrl: "https://github.com/caye13/streamlit_practice",
   },
 ];
 
