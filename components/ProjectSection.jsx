@@ -98,6 +98,15 @@ const projectsData = [
   },
   {
     id: 9,
+    title: "Scene Image Classification",
+    description: "Using PyTorch framework for a pre-trained ResNet18 architecture, initialized with IMAGENET1K_V1 weights, and modified its final classification layer (model.fc) to align with the specific NUM_CLASSES. The dataset goes through preprocessing transformations: transforms.Resize((224, 224)), transforms.RandomHorizontalFlip(p=0.5), conversion to tensor, and transforms.Normalize() with predefined mean and standard deviation values. Data management is an 80/20 stratified train/validation split using sklearn.model_selection.train_test_split for equal class distribution, then batch loading with DataLoader. To make this reproducible, a RANDOM_SEED is applied to torch, numpy, and random operations. The training process uses nn.CrossEntropyLoss as the criterion and optim.Adam for optimization.",
+    image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/sceneclassification.png",
+    tag: ["All", "AI/ML"],
+    gitUrl: "https://github.com/caye13/scene-classification-practice",
+    previewUrl: "https://github.com/caye13/scene-classification-practice",
+  },
+  {
+    id: 10,
     title: "Breast Cancer Biopsy Classification",
     description: "Used a logistic regression model for binary classification of breast cancer biopsies (malignant or benign) based on Wisconsin Diagnostic Breast Cancer (WDBC) dataset. The model uses ten features describing cell nucleus characteristics with the mean values of: radius of cancer cell, texture (variance of grayscale intensities), perimeter (total contour length), area (nuclear size), smoothness (variation in radial lengths), compactness, concavity (severity of concave portions of the contour), concave points, fractal dimension, and symmetry (axial symmetry). Then evaluates the model's performance using metrics: precision, recall, and accuracy for validation to prevent overfitting.",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/bcwd.png",
@@ -106,7 +115,7 @@ const projectsData = [
     previewUrl: "https://github.com/caye13/breast_cancer_biopsy_classification_logistic_regression",
   },
   {
-    id: 10,
+    id: 11,
     title: "Generative Adversarial Networks (GANs) for Image Generation",
     description: "In this project, I worked with the foundational architecture and training of Generative Adversarial Networks (GANs) for image generation. I focused on involving two neural networks: a generator that learns to map random noise from a latent space to synthetic images, and a discriminator that acts as a binary classifier, distinguishing between real images from the dataset and fake images produced by the generator. The model also addresses the complexities in training GANs like issues with convergence, mode collapse (where the generator produces limited variety of outputs), and the difficulty in fine-tuning hyperparameters to achieve stable and high-quality image synthesis.",
     image: "",
@@ -115,7 +124,7 @@ const projectsData = [
     previewUrl: "https://github.com/caye13/generative_adversarial_networks",
   },
   {
-    id: 11,
+    id: 12,
     title: "Convolutional Neural Network for Self-driving Vehicle Dog Identification",
     description: "Computer vision for autonomous vehicles to identify dogs on the road. I trained a classification model on image data using CNN architecture for dog detection and implemented model interpretability through  generation of saliency maps which visually highlight the specific pixel regions within a 32x32x3 input image that are most influential in the model's prediction. This provides insight into its decision making process.",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/cnn.png",
@@ -124,7 +133,7 @@ const projectsData = [
     previewUrl: "https://github.com/caye13/convolutional_neural_net_self_driving_cars",
   },
   {
-    id: 12,
+    id: 13,
     title: "Yelp Review Sentiment Analysis",
     description: "This is a sentiment analysis classifier for Yelp reviews to determine whether a review is positive or negative. This project implements an NLP pipeline. Technical aspects: extensive text preprocessing, such as tokenization, lemmatization (reducing words to their base forms), and removal of stop words using libraries like NLTK and SpaCy. Then text data is transformed into numerical features using vectorization, specifically CountVectorizer, to create a bag-of-words representation. A LogisticRegression model from sklearn.linear_model is trained for binary sentiment classification (positive/negative). I also experimented with word embeddings and vector analogies for understanding semantic relationships between words.",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/yelp.png",
@@ -163,10 +172,19 @@ const projectsData = [
     id: 16,
     title: "Streamlit Emotion Prediction App",
     description: "Deployment of a deep learning model for real-time emotion prediction from images using Streamlit. It involves image preprocessing pipeline where input images are first decoded from byte arrays, resized to (48, 48) pixels using cv2.resize with cv2.INTER_LANCZOS4 interpolation for high-quality downsampling, converted to grayscale, and then normalized to a [0, 1] range. Then the preprocessed images are fed into a pre-trained convolutional neural network (CNN) model for inference, with predicted emotion scores visualized via Pandas DataFrames.",
-    image: "",
+    image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/streamlit.png",
     tag: ["All", "AI/ML"],
     gitUrl: "https://github.com/caye13/streamlit_practice",
     previewUrl: "https://github.com/caye13/streamlit_practice",
+  },
+  {
+    id: 17,
+    title: "Band Sanitizer Website",
+    description: "I made a website for my band, Band Sanitizer est 2019",
+    image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/bscover.jpg",
+    tag: ["All", "Fun"],
+    gitUrl: "https://github.com/caye13/bandsanitizerofficial",
+    previewUrl: "",
   },
 ];
 
