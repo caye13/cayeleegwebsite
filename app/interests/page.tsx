@@ -24,16 +24,10 @@ const InterestsPage = () => {
                 <div className='interestsPage'>
                     <section className="artDiv">
                         <div className="scrapbookContainer">
-                            <Image
-                                src="https://raw.githubusercontent.com/caye13/my-website-photos/main/hands1.jpeg"
-                                alt="holding hands"
-                                width={500} 
-                                height={300}
-                            />
-                            <Image
-                                src="https://raw.githubusercontent.com/caye13/my-website-photos/main/hummingbirds.png"
-                                alt="hummingbirds for wb"
-                                width={500} 
+                            <Image 
+                                src="https://raw.githubusercontent.com/caye13/my-website-photos/main/gts.png"
+                                alt="stag"
+                                width={500}
                                 height={300}
                             />
                             <Image
@@ -43,8 +37,20 @@ const InterestsPage = () => {
                                 height={250}
                             />
                             <Image
+                                src="https://raw.githubusercontent.com/caye13/my-website-photos/main/hummingbirds.png"
+                                alt="hummingbirds for wb"
+                                width={500} 
+                                height={300}
+                            />
+                            <Image
+                                src="https://raw.githubusercontent.com/caye13/my-website-photos/main/hands1.jpeg"
+                                alt="holding hands"
+                                width={500} 
+                                height={300}
+                            />
+                            <Image
                                 src="https://raw.githubusercontent.com/caye13/my-website-photos/main/stag.png"
-                                alt="stag and a doe for dad"
+                                alt="stag and a doe for mum"
                                 width={400} 
                                 height={300}
                             />
