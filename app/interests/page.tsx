@@ -169,10 +169,17 @@ const InterestsPage = () => {
                                             <Image src="https://raw.githubusercontent.com/caye13/my-website-photos/main/piBar.jpg" alt="pi bar gig" width="500" height="300" />
                                             <div className="polaroid-caption">51 years young at the Pi Bar 02/17/22</div>
                                         </div>
-                                        
-                                        <div className="polaroid">
+                                        {/* <div className="polaroid">
                                             <Image src="https://raw.githubusercontent.com/caye13/my-website-photos/main/newFarm.JPG" alt="new farm show" width="500" height="300" />
                                             <div className="polaroid-caption">Halloween at The New Farm 10/30/21</div>
+                                        </div> */}
+                                        {/* <div className='polaroid'>
+                                            <Image src="https://raw.githubusercontent.com/caye13/my-website-photos/main/band.JPG" alt="gradParty" width="500" height="300" />
+                                            <div className="polaroid-caption">Grad Party 05/28/23</div>
+                                        </div> */}
+                                        <div className='polaroid'>
+                                            <Image src="https://raw.githubusercontent.com/caye13/my-website-photos/main/valencia2.jpg" alt="valencia2" width="500" height="300" />
+                                            <div className="polaroid-caption">Valencia Art Corridor 04/23/22</div>
                                         </div>
                                     </div>
                                 </div>    
