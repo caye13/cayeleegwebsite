@@ -33,6 +33,12 @@ const WoodworkingSection = () => {
       type: 'woodshop',
     },
     {
+      src: 'https://raw.githubusercontent.com/caye13/my-website-photos/main/woodenflowers.png',
+      alt: 'wooden flowers',
+      title: 'Wooden Flowers',
+      description: 'Used a handplaner to shave slim pieces of wood to shape into petals',
+    },
+    {
       src: 'https://raw.githubusercontent.com/caye13/my-website-photos/main/joints.JPEG',
       alt: 'joints',
       title: 'Joints',
@@ -50,7 +56,7 @@ const WoodworkingSection = () => {
       src: 'https://raw.githubusercontent.com/caye13/my-website-photos/main/toolbox.JPEG',
       alt: 'toolbox',
       title: 'Toolbox',
-      description: '',
+      description: 'Made a somewhat functional toolbox :)',
       type: 'woodshop',
     },
   ];
@@ -136,7 +142,7 @@ const WoodworkingSection = () => {
           @media (min-width: 1024px) {
             .image-grid {
               grid-template-columns: repeat(3, 1fr);
-              grid-auto-rows: auto; /* Allow rows to adjust height based on content */
+              grid-auto-rows: auto;
             }
             .image-grid-item:nth-child(1) {
                 grid-column: span 2;
@@ -159,21 +165,22 @@ const WoodworkingSection = () => {
             transform: translateY(-3px);
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
           }
-
+            
           .image-wrapper {
             position: relative;
             width: 100%;
-            padding-bottom: 75%; /* Fixed aspect ratio (4:3) for consistent image container height */
+            min-height: 400px;
+            padding-bottom: 65%;
             overflow: hidden;
           }
 
           .woodworking-image {
-            position: absolute; /* Position absolutely within the wrapper */
+            position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Image covers the fixed aspect ratio container */
+            object-fit: cover;
             transition: transform 0.4s ease-out, filter 0.4s ease-out;
             filter: brightness(0.98);
           }
@@ -184,7 +191,7 @@ const WoodworkingSection = () => {
           }
 
           .image-overlay {
-            position: absolute; /* Position overlay over the image */
+            position: absolute;
             bottom: 0;
             left: 0;
             width: 100%;
@@ -243,7 +250,7 @@ const WoodworkingSection = () => {
                 src={photo.src}
                 alt={photo.alt}
                 width={800}
-                height={600}
+                height={800}
                 layout="responsive"
                 objectFit="cover"
                 className="woodworking-image"
