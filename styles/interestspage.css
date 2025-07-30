@@ -298,7 +298,9 @@
 .polaroid:nth-child(1) { transform: rotate(-8deg) translateY(-20px); }
 .polaroid:nth-child(2) { transform: rotate(5deg) translateY(10px); }
 .polaroid:nth-child(3) { transform: rotate(-3deg) translateY(-10px); }
-.polaroid:nth-child(4) { transform: rotate(7deg) translateY(15px); }
+.polaroid:nth-child(4) { transform: rotate(0deg) translateY(15px); }
+.polaroid:nth-child(5) { transform: rotate(-4deg) translateY(-15px); }
+.polaroid:nth-child(6) { transform: rotate(2deg) translateY(5px); }
 
 .polaroid img {
     width: 100%;
