@@ -25,5 +25,3 @@ Beyond policies, your data is treated as a product. Leaks, like one exposing mil
 ## It's Your Data
 
 Data rights are human rights. Privacy policies shouldn’t obscure how your information is used. Demand clear language, support stronger laws, and take back control of your digital life. Your data is yours and we should keep it that way.
-
-> here's to my most highbrow, composed diss on tiktok ✧
