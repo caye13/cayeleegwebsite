@@ -26,7 +26,7 @@ const InterestsPage = () => {
                         <div className="scrapbookContainer">
                             <Image 
                                 src="https://raw.githubusercontent.com/caye13/my-website-photos/main/tiger.png"
-                                alt="tiger sketch"
+                                alt="tiger"
                                 width={500}
                                 height={300}
                             />
