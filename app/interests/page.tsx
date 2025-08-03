@@ -25,6 +25,12 @@ const InterestsPage = () => {
                     <section className="artDiv">
                         <div className="scrapbookContainer">
                             <Image 
+                                src="https://raw.githubusercontent.com/caye13/my-website-photos/main/tiger.png"
+                                alt="tiger sketch"
+                                width={500}
+                                height={300}
+                            />
+                            <Image 
                                 src="https://raw.githubusercontent.com/caye13/my-website-photos/main/gts.png"
                                 alt="stag"
                                 width={500}
