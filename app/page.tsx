@@ -55,7 +55,7 @@ const HomePage = () => {
             <section className='extras'>
                 <div>
                     <h2>Extras</h2>
-                    <p>Other than coding, I seem to have accumulated one too many pastimes for just one person: hiking, producing music, playing violin concertos, sketching naturalism, experimenting with neoclassical painting, playing chess... </p>
+                    <p>Other than coding, I seem to have accumulated one too many pastimes for just one person: tennis, producing music, playing violin concertos, sketching naturalism, hiking, experimenting with neoclassical painting, playing chess... </p>
                     <Link href="/interests" className='font-medium underline'>TAKE A LOOK!</Link>
                 </div>
             </section>
