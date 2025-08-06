@@ -61,18 +61,18 @@ const InterestsPage = () => {
                                 height={300}
                             />
                             <Image
-                                src="https://raw.githubusercontent.com/caye13/my-website-photos/main/horse.png"
-                                alt="first sketch of a horse"
-                                width={300} 
-                                height={300}
-                            />
-                            <Image
                                 src="https://raw.githubusercontent.com/caye13/my-website-photos/main/lion.png"
                                 alt="lion sketch"
                                 width={300} 
                                 height={300}
                             />
-                            {/* Images scattered on desktop / slider on mobile */}
+                            <Image
+                                src="https://raw.githubusercontent.com/caye13/my-website-photos/main/horse.png"
+                                alt="first sketch of a horse"
+                                width={300} 
+                                height={300}
+                            />
+                            
                         </div>
                     </section>
 
