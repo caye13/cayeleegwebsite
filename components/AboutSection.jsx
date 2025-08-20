@@ -22,7 +22,7 @@ const TAB_DATA = [
           Database Management: MySQL, MongoDB, PostgreSQL, Prisma
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          AI/ML: Scikit-learn, TensorFlow, PyTorch, Jupyter Notebooks, Keras, NumPy, Pandas, Matplotlib, OpenCV, OpenAI API, LangChain, Hugging Face
+          AI/ML: Scikit-learn, TensorFlow, PyTorch, Jupyter Notebooks, Keras, NumPy, Pandas, Matplotlib, OpenCV, Kafka, OpenAI API, LangChain, NLTK, Hugging Face
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
            UI/UX: Figma, Tailwind CSS
