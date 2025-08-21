@@ -13,7 +13,7 @@ const TAB_DATA = [
           Programming Languages: C++, Python, Java, JavaScript, SQL, R, TypeScript
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-300 list-disc">
-          Full Stack Development : HTML, CSS, React, Node.js, Next.js, ExpressJS, Tailwind CSS, Flask, Git
+          Full Stack Development: HTML, CSS, React, Node.js, Next.js, ExpressJS, Tailwind CSS, Flask, Git
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
           Mobile Development: React Native, Swift
@@ -22,7 +22,7 @@ const TAB_DATA = [
           Database Management: MySQL, MongoDB, PostgreSQL, Prisma
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          AI/ML: Scikit-learn, TensorFlow, PyTorch, Jupyter Notebooks, Keras, NumPy, Pandas, Matplotlib, OpenCV, Kafka, OpenAI API, LangChain, NLTK, Hugging Face
+          AI/ML: Scikit-learn, TensorFlow, PyTorch, Jupyter Notebooks, Keras, NumPy, Pandas, Matplotlib, OpenCV, OpenNN, Kafka, OpenAI API, LangChain, NLTK, Hugging Face
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
            UI/UX: Figma, Tailwind CSS
