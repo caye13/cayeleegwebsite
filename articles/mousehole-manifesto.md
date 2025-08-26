@@ -46,3 +46,6 @@ For some of us, this mental "underground" isn’t that far away. Maybe it's less
 ## So...  
 1. Being just enough is fine for me
 2. Can optimistic nihilism be an option?
+
+
+Thank you CC for the rec
