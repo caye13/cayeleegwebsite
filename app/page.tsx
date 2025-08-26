@@ -26,7 +26,11 @@ const HomePage = () => {
                             Studying Computer Science and Business Administration at the University of Southern California.
                         </li>
                         <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
-                            Currently coding: <strong>CV Satellite Image Analysis</strong>, <Link href="https://www.blendify.app/" className='font-medium underline'>spotify blender</Link> 
+                            <strong>Contributing to Dr. Mayank Kejriwal's NLP and CV Studies in Global Human Trafficking at USC ISI</strong>
+                            {/* <strong>Collaborating with Dr. Mayank Kejriwal at USC ISI utilizing NLP and CV on Studies in Global Human Trafficking</strong> */}
+                        </li>
+                        <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
+                            Currently coding: CV Satellite Image Analysis, <Link href="https://www.blendify.app/" className='font-medium underline'>spotify blender</Link> 
                             {/* <br></br>
                             In the backlog: poker simulator */}
                         </li>
