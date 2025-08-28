@@ -12,7 +12,7 @@ In 2025, your data (your searches, your location, your digital footprint) is as 
 
 ## Privacy Policies
 
-Privacy policies are less a tool for transparency than a calculated veil over corporate avarice. Privacy policies should clarify how your data is handled, but they’re cluttered with vague phrases like “analytics purposes” or “service optimization,” making them a maze of jargon. This isn’t an accident. It’s a tactic. Some policies hide practices like apps tracking your location constantly or accessing your microphone for unclear “features.” Most users don’t realize what they’re agreeing to, handing over data without true consent. As we rely on apps for daily life, clear policies would enable us to protect our digital selves.
+Privacy policies are less a tool for transparency than a calculated veil over corporate avarice. Privacy policies should clarify how your data is handled, but they’re cluttered with vague phrases, making them a maze of jargon. This isn’t an accident. It’s a tactic. Some policies hide practices like apps tracking your location constantly or accessing your microphone for unclear “features.” Most users don’t realize what they’re agreeing to, handing over data without true consent. As we rely on apps for daily life, clear policies would enable us to protect our digital selves.
 
 ## Data Rights Are Essential for the 21st Century
 
