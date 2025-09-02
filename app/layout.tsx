@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { Cormorant_Garamond, Source_Sans_3 } from "next/font/google"
+import { Analytics } from "@vercel/analytics/next"
 import "../styles/globals.css"
 import Footer from '../components/NotesFooter';
 import Cursor from '../components/Cursor';
