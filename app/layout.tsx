@@ -42,6 +42,7 @@ export default function RootLayout({
         <main className="flex-grow">
           {children}
         </main>
+        <Analytics />
       </body>
     </html>
   )
