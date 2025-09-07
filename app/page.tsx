@@ -26,7 +26,7 @@ const HomePage = () => {
                             Studying Computer Science and Business Administration at the University of Southern California.
                         </li>
                         <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
-                            <strong>Contributing to Dr. Mayank Kejriwal's NLP and CV Studies in Global Human Trafficking at USC ISI</strong>
+                            <strong>Contributing to Dr. Mayank Kejriwal's Studies in Global Human Trafficking at USC ISI</strong>
                             {/* <strong>Collaborating with Dr. Mayank Kejriwal at USC ISI utilizing NLP and CV on Studies in Global Human Trafficking</strong> */}
                         </li>
                         <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
