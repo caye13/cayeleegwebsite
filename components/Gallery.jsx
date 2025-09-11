@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import "../styles/gallery.css"
+import Image from 'next/image';
 
 
 const Gallery = () => {
@@ -27,10 +28,12 @@ const Gallery = () => {
     <div className="gallery-container">
       <div className="gallery">
         {images.map((src, index) => (
-          <img
+          <Image
             key={index}
             src={src}
             alt={`art${index + 1}`}
+            height={400}
+            width={600}
             className={`gallery-image ${index === current ? "active" : ""}`}
           />
         ))}
