@@ -8,12 +8,13 @@ const PhotoGallery = () => {
         { id: 1, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/ggbnight.jpeg", title: "Golden Gate Bridge", location: "San Francisco, CA", date: "January, 2024", description: "Evening walk to Fort Point with Dad" },
         { id: 2, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/winterYosemite.JPG", title: "Yosemite Falls", location: "Yosemite Valley, CA", date: "April, 2014", description: "From Ahwahnee Hotel to Lower Yosemite Falls Trail" },
         { id: 3, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/alaska.JPG", title: "Ice Caps", location: "Anchorage, Alaska", date: "August, 2013", description: "Where the heart is" },
-        // { id: 5, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/mtTam.jpeg", title: "Mount Tam", location: "Stinson Beach, CA", date: "July, 2024", description: "Mountain Tamalpais" },
         { id: 4, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/glaciers.JPG", title: "Glaciers", location: "Glacier Bay National Park, Alaska", date: "August, 2013", description: "Sightseeing glaciers + ice caps day" },
+        { id: 5, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/mtTam.jpeg", title: "Mount Tam", location: "Stinson Beach, CA", date: "July, 2024", description: "Mountain Tamalpais" },
         { id: 6, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/sausalito.jpeg", title: "View of SF", location: "Sausalito, CA", date: "July, 2023", description: "Outside of Spinnaker with Quinn" },
         { id: 7, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/Monterey-7745.jpg", title: "Sunset", location: "Monterey, CA", date: "December, 2013", description: "Grandparents' Anniversary" },
-        { id: 8, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/sb.jpeg", title: "Old Mission Santa Barbara", location: "Santa Barbara, CA", date: "July, 2022", description: "" },
-        { id: 9, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/blueAngels.jpg", title: "Hornets", location: "Fleet Week", date: "July, 2022", description: "Flight demonstration of the F-18s in Blue Angel uniform" },
+        { id: 8, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/brosgrad.jpg", title: "Big Bro Over with Undergrad", location: "Santa Barbara, CA", date: "June, 2025", description: "Celebrating my brother's graduation" },
+        { id: 9, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/sb.jpeg", title: "Old Mission Santa Barbara", location: "Santa Barbara, CA", date: "July, 2022", description: "" },
+        { id: 10, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/blueAngels.jpg", title: "Hornets", location: "Fleet Week", date: "July, 2022", description: "Flight demonstration of the F-18s in Blue Angel uniform" },
     ];
 
     const [flippedCards, setFlippedCards] = useState({});
