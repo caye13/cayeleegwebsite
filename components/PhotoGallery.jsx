@@ -12,7 +12,7 @@ const PhotoGallery = () => {
         { id: 5, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/mtTam.jpeg", title: "Mount Tam", location: "Stinson Beach, CA", date: "July, 2024", description: "Mountain Tamalpais" },
         { id: 6, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/sausalito.jpeg", title: "View of SF", location: "Sausalito, CA", date: "July, 2023", description: "Outside of Spinnaker with Quinn" },
         { id: 7, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/Monterey-7745.jpg", title: "Sunset", location: "Monterey, CA", date: "December, 2013", description: "Grandparents' Anniversary" },
-        { id: 8, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/brosgrad.jpg", title: "Big Bro Over with Undergrad", location: "Santa Barbara, CA", date: "June, 2025", description: "Celebrating my brother's graduation" },
+        // { id: 8, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/brosgrad.jpg", title: "Big Bro Over with Undergrad", location: "Santa Barbara, CA", date: "June, 2025", description: "Celebrating my brother's graduation" },
         { id: 9, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/sb.jpeg", title: "Old Mission Santa Barbara", location: "Santa Barbara, CA", date: "July, 2022", description: "" },
         { id: 10, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/blueAngels.jpg", title: "Hornets", location: "Fleet Week", date: "July, 2022", description: "Flight demonstration of the F-18s in Blue Angel uniform" },
     ];
