@@ -9,6 +9,7 @@ const Gallery = () => {
     "https://raw.githubusercontent.com/caye13/my-website-photos/main/hands1.jpeg",
     "https://raw.githubusercontent.com/caye13/my-website-photos/main/tennis.png",
     // "https://raw.githubusercontent.com/caye13/my-website-photos/main/mumfacebook.jpg",
+    "https://raw.githubusercontent.com/caye13/my-website-photos/main/cocolove.jpeg",
     "https://raw.githubusercontent.com/caye13/my-website-photos/main/nevadaFallsHike.jpeg",
     "https://raw.githubusercontent.com/caye13/my-website-photos/main/baseball.png",
     "https://raw.githubusercontent.com/caye13/my-website-photos/main/band.JPG",
