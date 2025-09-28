@@ -38,7 +38,7 @@ const HomePage = () => {
                             Exploring the crisscrossing of CV/analyzing images and NLP/summarizing privacy policies
                         </li> */}
                         <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed"> 
-                            Working my way through pwn.college
+                            Working my way through pwn.college hacking courses
                         </li>
                         {/* <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
                             Finding time to sketch and expand my musical repertoire
