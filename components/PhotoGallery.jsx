@@ -15,6 +15,7 @@ const PhotoGallery = () => {
         // { id: 8, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/brosgrad.jpg", title: "Big Bro Over with Undergrad", location: "Santa Barbara, CA", date: "June, 2025", description: "Celebrating my brother's graduation" },
         { id: 9, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/sb.jpeg", title: "Old Mission Santa Barbara", location: "Santa Barbara, CA", date: "July, 2022", description: "" },
         { id: 10, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/blueAngels.jpg", title: "Hornets", location: "Fleet Week", date: "July, 2022", description: "Flight demonstration of the F-18s in Blue Angel uniform" },
+        // { id: 11, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/belvedere.jpg", title: "Coder Hunch", location: "Belvedere, CA", date: "January, 2025", description: "I swear I was much happier than I look" },
     ];
 
     const [flippedCards, setFlippedCards] = useState({});
