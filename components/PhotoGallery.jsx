@@ -13,9 +13,11 @@ const PhotoGallery = () => {
         { id: 6, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/sausalito.jpeg", title: "View of SF", location: "Sausalito, CA", date: "July, 2023", description: "Outside of Spinnaker with Quinn" },
         { id: 7, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/Monterey-7745.jpg", title: "Sunset", location: "Monterey, CA", date: "December, 2013", description: "Grandparents' Anniversary" },
         // { id: 8, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/brosgrad.jpg", title: "Big Bro Over with Undergrad", location: "Santa Barbara, CA", date: "June, 2025", description: "Celebrating my brother's graduation" },
-        { id: 9, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/sb.jpeg", title: "Old Mission Santa Barbara", location: "Santa Barbara, CA", date: "July, 2022", description: "" },
+        // { id: 9, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/sb.jpeg", title: "Old Mission Santa Barbara", location: "Santa Barbara, CA", date: "July, 2022", description: "" },
         { id: 10, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/blueAngels.jpg", title: "Hornets", location: "Fleet Week", date: "July, 2022", description: "Flight demonstration of the F-18s in Blue Angel uniform" },
-        // { id: 11, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/belvedere.jpg", title: "Coder Hunch", location: "Belvedere, CA", date: "January, 2025", description: "I swear I was much happier than I look" },
+        { id: 11, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/belvedere2.jpg", title: "Caye Back in the Bay", location: "Belvedere, CA", date: "January, 2025", description: "(it rhymes)" },
+        // { id: 12, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/belvedere.jpg", title: "Coder Hunch", location: "Belvedere, CA", date: "January, 2025", description: "Turtle neck weather" },
+        // { id: 13, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/skating.jpg", title: "Board Broke", location: "Los Angeles, CA", date: "September, 2025", description: "Studying for midterms??" },
     ];
 
     const [flippedCards, setFlippedCards] = useState({});
