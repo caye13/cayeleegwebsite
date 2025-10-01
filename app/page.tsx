@@ -23,7 +23,7 @@ const HomePage = () => {
                     </p> */}
                     <ul className="" style={{ paddingLeft: "3rem", listStyleType: "circle" }}>
                         <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
-                            Studying Computer Science and Business Administration at the University of Southern California.
+                            Studying Computer Science and Business Administration at the University of Southern California
                         </li>
                         <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
                             <strong>Contributing to Dr. Mayank Kejriwal's Studies in Global Human Trafficking at USC ISI</strong>

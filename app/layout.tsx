@@ -34,6 +34,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
         <link rel="shortcut icon" href="https://raw.githubusercontent.com/caye13/my-website-photos/main/beeicon.png" type="image/png"></link>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
+        <meta name="description" content="Studying Computer Science and Business Administration at the University of Southern California. Contributing to Dr. Mayank Kejriwal's Studies in Global Human Trafficking at USC ISI. Currently coding: CNN Computer Vision Satellite Image Analysis to Combat Human Trafficking." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </head>
       <body
