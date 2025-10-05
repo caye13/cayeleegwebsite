@@ -25,6 +25,12 @@ const TAB_DATA = [
           AI/ML: Scikit-learn, TensorFlow, PyTorch, Jupyter Notebooks, Keras, NumPy, Pandas, Matplotlib, OpenCV, OpenNN, Kafka, OpenAI API, LangChain, NLTK, Hugging Face
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Cloud Platforms: AWS (EC2, S3, Lambda), Google Cloud Platform, Heroku, Vercel
+        </li>
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
+          Operating Systems/DevOps: Linux, Docker, GitHub Actions
+        </li>
+        <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
            UI/UX: Figma, Tailwind CSS
         </li>
       </ul>
