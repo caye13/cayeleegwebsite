@@ -45,7 +45,7 @@ const TAB_DATA = [
           Multivariable Calculus, Differential Equations, Linear Algebra, Statistics and Probability, Discrete Mathematics, Mechanics and Thermodynamics
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          Data Structures and Object-Oriented Programming, Algorithms and Theory of Computing, Principles of Software Engineering, Machine Learning
+          Data Structures and Object-Oriented Programming, Algorithms and Theory of Computing, Software Development and Engineering, Machine Learning
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
           Business Economics, Financial and Managerial Accounting, Marketing, and Operations Management
