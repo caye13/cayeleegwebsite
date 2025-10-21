@@ -30,7 +30,7 @@ const HomePageFooter: React.FC = () => {
           </a>
         </div>
         <div className="text-sm">
-          &copy; {new Date().getFullYear()} Caye Lee's Website. All rights reserved.
+          &copy; {new Date().getFullYear()} Caye Lee. Made with Next.js, minimal typos, and lots of intentionality.
         </div>
       </div>
     </footer>
