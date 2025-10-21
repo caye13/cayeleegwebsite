@@ -30,7 +30,7 @@ const HomePage = () => {
                             {/* <strong>Collaborating with Dr. Mayank Kejriwal at USC ISI utilizing NLP and CV on Studies in Global Human Trafficking</strong> */}
                         </li>
                         <li className="text-lg lg:text-2xl text-red-950 font-300 leading-relaxed">
-                            Currently coding: CV Satellite Image Analysis, <Link href="https://www.blendify.app/" className='font-medium underline'>spotify blender</Link> 
+                            Currently coding: CV Satellite Image Analysis, Kaidate, <Link href="https://www.blendify.app/" className='font-medium underline'>spotify blender</Link>
                             {/* <br></br>
                             In the backlog: poker simulator */}
                         </li>
