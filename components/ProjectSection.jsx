@@ -81,7 +81,7 @@ const projectsData = [
   {
     id: 7,
     title: "Kaidate",
-    description: "Record a quick voice note to capture a problem, an update, or an idea. It transcribes speech, performs sentiment analysis, and feeds insights into a llm that creates tasks, ranks urgency, and routes responsibilities to the right departments. Inspired by Kaiezn philosophy of continuous, incremental improvement across every layer of an organization. Every log contributes to the system’s self-correction: identifying friction, surfacing inefficiencies, and suggesting optimizations.",
+    description: "Record a quick voice note to capture a problem, an update, or an idea. It transcribes speech, performs sentiment analysis, and feeds insights into a llm that creates tasks, ranks urgency, and routes responsibilities to the right departments. Based off of Star Trek and inspired by Kaizen philosophy of continuous, incremental improvement across every layer of an organization. Every log contributes to the system’s self-correction: identifying friction, surfacing inefficiencies, and suggesting optimizations.",
     image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/kaidate.png",
     tag: ["All", "AI/ML", "Fun", "☆"],
     gitUrl: "https://github.com/caye13/stardate",
