@@ -7,6 +7,7 @@ import Image from 'next/image';
 const Gallery = () => {
   const images = [
     "https://raw.githubusercontent.com/caye13/my-website-photos/main/hands1.jpeg",
+    "https://raw.githubusercontent.com/caye13/my-website-photos/main/lesmis.jpg",
     // "https://raw.githubusercontent.com/caye13/my-website-photos/main/belvedere2.jpg",
     "https://raw.githubusercontent.com/caye13/my-website-photos/main/tennis.png",
     // "https://raw.githubusercontent.com/caye13/my-website-photos/main/mumfacebook.jpg",
