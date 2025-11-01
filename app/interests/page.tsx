@@ -8,6 +8,7 @@ import { MdHeight } from 'react-icons/md'
 import BandEvents from '../../components/BandEvents';
 import '../../styles/bandevents.css'
 import WoodworkingSection from "../../components/WoodworkingSection"
+import BookshelfSection from '../../components/BookshelfSection';
 
 const InterestsPage = () => {
     return (
@@ -215,6 +216,7 @@ const InterestsPage = () => {
                             </div>
                         </div>
                     </section>
+                    <BookshelfSection />
                     <WoodworkingSection />
                 </div>
             <Footer />
