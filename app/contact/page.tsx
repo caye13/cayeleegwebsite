@@ -27,9 +27,9 @@ const linkColor = '#FBF7F3';
                     <a className="contactPageicon-glow" href="mailto:cayeleeg@gmail.com" target='_blank' rel="noopener noreferrer" aria-label="Email" style={{ color: linkColor }}>
                         <i className='bi bi-envelope-fill' style={{ color: linkColor }}></i>
                     </a>
-                    {/* <a className="contactPageicon-glow" href="https://open.spotify.com/user/caye_awesome?si=2e280f2938e64e60" target='_blank' rel="noopener noreferrer" aria-label="spotify" style={{ color: linkColor }}>
+                    <a className="contactPageicon-glow" href="https://open.spotify.com/user/caye_awesome?si=2e280f2938e64e60" target='_blank' rel="noopener noreferrer" aria-label="spotify" style={{ color: linkColor }}>
                         <i className='bi bi-spotify' style={{ color: linkColor }}></i>
-                    </a> */}
+                    </a>
                 </div>
                 <p>Photo by Cary Lee</p>
             </div>
