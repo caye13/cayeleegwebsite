@@ -42,7 +42,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
     <div className="group">
       <div
         className="h-52 md:h-78 rounded-t-xl relative overflow-hidden"
-        style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
+        style={{ background: `url(${imgUrl})`, backgroundSize: "cover", backgroundPosition: "right center"}}
       >
         <div className="absolute inset-0 bg-[#5A4D4A]/78 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center gap-8">
           <Link

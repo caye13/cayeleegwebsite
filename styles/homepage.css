@@ -167,12 +167,12 @@ footer {
   font-family: var(--font-source-sans-3), sans-serif;
   margin: 0 auto;
   padding-top: 4rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   font-size: 1.125rem;
 }
 .buttonContainer {
-  width: 95%;
+  width: 100%;
 }
 .projButton {
   background-color: #FBF7F3;
