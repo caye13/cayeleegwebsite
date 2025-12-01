@@ -10,28 +10,28 @@ const TAB_DATA = [
     content: (
       <ul className="space-y-6">
         <li className="text-red-950 leading-relaxed text-lg font-300 list-disc">
-          Programming Languages: C++, Python, Java, JavaScript, SQL, R, TypeScript
+          <b>Programming Languages:</b> C++, Python, Java, JavaScript, SQL, R, TypeScript
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-300 list-disc">
-          Full Stack Development: HTML, CSS, React, Node.js, Next.js, ExpressJS, Tailwind CSS, Flask, Git
+          <b>Full Stack Development:</b> HTML, CSS, React, Node.js, Next.js, ExpressJS, Tailwind CSS, Flask, Git
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          Mobile Development: React Native, Swift
+          <b>Mobile Development:</b> React Native, Swift
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          Database Management: MySQL, MongoDB, PostgreSQL, Prisma
+          <b>Database Management:</b> MySQL, MongoDB, PostgreSQL, Prisma, Firebase (Firestore and Realtime Database)
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          AI/ML: Scikit-learn, TensorFlow, PyTorch, Jupyter Notebooks, Keras, NumPy, Pandas, Matplotlib, OpenCV, OpenNN, Kafka, OpenAI API, LangChain, NLTK, Hugging Face
+          <b>AI/ML:</b> Scikit-learn, TensorFlow, PyTorch, Jupyter Notebooks, Keras, NumPy, Pandas, Matplotlib, OpenCV, OpenNN, Kafka, OpenAI API, LangChain, NLTK, Hugging Face
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          Cloud Platforms: AWS (EC2, S3, Lambda), Google Cloud Platform, Heroku, Vercel
+          <b>Cloud Platforms:</b> AWS (EC2, S3, Lambda), Google Cloud Platform, Heroku, Vercel
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          Operating Systems/DevOps: Linux, Docker, GitHub Actions
+          <b>Operating Systems/DevOps:</b> Linux, Docker, GitHub Actions
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-           UI/UX: Figma, Tailwind CSS
+           <b>UI/UX:</b> Figma, Tailwind CSS
         </li>
       </ul>
     ),
