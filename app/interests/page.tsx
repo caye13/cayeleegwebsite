@@ -208,7 +208,7 @@ const InterestsPage = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <h2>BAND SANITIZER HOLIDAY SINGLE</h2>
+                                    <h2>BAND SANTATIZER HOLIDAY SINGLE</h2>
                                     <div className="spotify-embed">
                                         <iframe style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/album/0SzqE6846tpmUwEjh4ysac?utm_source=generator" width="100%" height="152" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                                     </div>
