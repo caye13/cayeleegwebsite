@@ -16,7 +16,7 @@ const TAB_DATA = [
           <b>Full Stack Development:</b> HTML, CSS, React, Node.js, Next.js, ExpressJS, Tailwind CSS, Flask, Git
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          <b>Mobile Development:</b> React Native, Swift
+          <b>Mobile Development:</b> React Native, Swift, Android Studio
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
           <b>Database Management:</b> MySQL, MongoDB, PostgreSQL, Prisma, Firebase (Firestore and Realtime Database)
