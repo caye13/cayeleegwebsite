@@ -1,6 +1,6 @@
 ---
 title: "nuremberg and algorithms"
-category: "interests"
+category: "thoughts"
 date: "01-02-2026"
 ---
 
