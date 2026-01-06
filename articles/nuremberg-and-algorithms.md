@@ -52,6 +52,6 @@ The most unsettling thought isn’t that these systems exist, but that we’re s
 
 #
 #
-#
+
 
 **Herd and crowd mentality = bad**  
