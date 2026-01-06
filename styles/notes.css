@@ -81,6 +81,13 @@ footer {
   letter-spacing: -0.0001em; /* tracking-tight */
 }
 
+.article > p {
+  font-size: 1.15rem; /* text-lg */
+  gap: 1rem;
+  letter-spacing: -0.0001em;
+  padding: 0.15rem;
+}
+
 .article > ol {
   list-style-type: decimal;
   display: flex;
