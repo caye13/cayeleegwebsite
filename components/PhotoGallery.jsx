@@ -160,8 +160,8 @@ const PhotoGallery = () => {
                                     alt={photo.title}
                                     onLoad={(e) => handleImageLoad(photo.id, index, e)}
                                     onError={() => handleImageError(photo.id, index)}
-                                    layout="fill"
-                                    objectFit="cover"
+                                    fill
+                                    style={{ objectFit: "cover" }}
                                 />
                             </div>
                             <div className="photo-back">
