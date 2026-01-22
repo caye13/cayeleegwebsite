@@ -19,7 +19,6 @@ I haven’t read Dr. Kelley’s book so I’m not one to evaluate its academic m
 #
 #
 #
-#
 
 At the time, ideas like this lived or died through a slower process. People read, discussed, argued, and decided individually whether something was worth their attention. A book’s success depended on whether readers found it convincing, morally justifiable, or intellectually sound. Rejection was visible and intentional. Something could be published and still collectively be refused.
 
@@ -31,7 +30,6 @@ Not always intentionally, but algorithms don't care about **truth or nuance**. N
 
 It’s worth acknowledging that these are private platforms with incentive structures, not neutral public forums.
 
-#
 #
 #
 #
