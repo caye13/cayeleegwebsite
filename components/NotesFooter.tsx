@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
           <a className="notesPageicon-glow" href="https://github.com/caye13" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style={{ color: linkColor }}>
             <i className="bi bi-github"></i>
           </a>
-          <a className="notesPageicon-glow" href="mailto:cayeleeg@gmail.com" target='_blank' rel="noopener noreferrer" aria-label="Email" style={{ color: linkColor }}>
+          <a className="notesPageicon-glow" href="mailto:cayelee.g@gmail.com" target='_blank' rel="noopener noreferrer" aria-label="Email" style={{ color: linkColor }}>
             <i className='bi bi-envelope-fill' style={{ color: linkColor }}></i>
           </a>
         </div>
