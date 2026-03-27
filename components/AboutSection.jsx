@@ -10,10 +10,10 @@ const TAB_DATA = [
     content: (
       <ul className="space-y-6">
         <li className="text-red-950 leading-relaxed text-lg font-300 list-disc">
-          <b>Programming Languages:</b> C++, Python, Java, JavaScript, SQL, R, TypeScript
+          <b>Programming Languages:</b> C++, Python, Java, JavaScript, SQL, R, TypeScript, Rust
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-300 list-disc">
-          <b>Full Stack Development:</b> HTML, CSS, React, Node.js, Next.js, ExpressJS, Tailwind CSS, Flask, Git
+          <b>Full Stack Development:</b> HTML, CSS, React, Node.js, Next.js, ExpressJS, Tailwind CSS, Flask, Git, Stripe API, PayPal API, Clerk/Auth0 
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
           <b>Mobile Development:</b> React Native, Swift, Android Studio
@@ -28,7 +28,7 @@ const TAB_DATA = [
           <b>Cloud Platforms:</b> AWS (EC2, S3, Lambda), Google Cloud Platform, Heroku, Vercel
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
-          <b>Operating Systems/DevOps:</b> Linux, Docker, GitHub Actions
+          <b>Operating Systems/DevOps:</b> Linux, Docker, GitHub Actions, Cloudflare (DNS/CDN)
         </li>
         <li className="text-red-950 leading-relaxed text-lg font-350 list-disc">
            <b>UI/UX:</b> Figma, Tailwind CSS
