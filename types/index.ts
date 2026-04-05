@@ -3,4 +3,7 @@ export type ArticleItem = {
     title: string
     date: string
     category: string
+    contentHtml: string
+    protected?: boolean
+    hint?: string
 }

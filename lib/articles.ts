@@ -1,5 +1,4 @@
 import fs from "fs"
-import { readFile } from "fs/promises"
 import matter from "gray-matter"
 import path from "path"
 import moment from "moment"
@@ -14,7 +13,7 @@ const getSortedArticles = (): ArticleItem[] => {
     const fileNames = fs.readdirSync(articlesDirectory)
 
     const allArticlesData = fileNames.map((fileName) => {
-        const id= fileName.replace(/\.md$/, "")
+        const id = fileName.replace(/\.md$/, "")
 
         const fullPath = path.join(articlesDirectory, fileName)
         const fileContents = fs.readFileSync(fullPath, "utf-8")
@@ -26,20 +25,20 @@ const getSortedArticles = (): ArticleItem[] => {
             title: matterResult.data.title,
             date: matterResult.data.date,
             category: matterResult.data.category,
+            protected: matterResult.data.protected === true,
+            hint: matterResult.data.hint ?? "",
+            contentHtml: "", // not needed for list view
         }
     })
 
     return allArticlesData.sort((a, b) => {
         const format = "MM-DD-YYYY"
         const dateOne = moment(a.date, format)
-        const dateTwo = moment(a.date, format)
-        if (dateOne.isBefore(dateTwo)) {
-            return -1
-        } else if (dateTwo.isAfter(dateOne)) {
-            return 1
-        } else {
-            return 0
-        }
+        const dateTwo = moment(b.date, format)
+
+        if (dateOne.isBefore(dateTwo)) return 1
+        if (dateOne.isAfter(dateTwo)) return -1
+        return 0
     })
 }
 
@@ -59,7 +58,6 @@ export const getCategorisedArticles = (): Record<string, ArticleItem[]> => {
 
 export const getArticleData = async (id: string) => {
     const fullPath = path.join(articlesDirectory, `${id}.md`)
-
     const fileContents = fs.readFileSync(fullPath, "utf-8")
 
     const matterResult = matter(fileContents)
@@ -76,5 +74,7 @@ export const getArticleData = async (id: string) => {
         title: matterResult.data.title,
         category: matterResult.data.category,
         date: moment(matterResult.data.date, "MM-DD-YYYY").format("MMMM Do YYYY"),
+        protected: matterResult.data.protected === true,
+        hint: matterResult.data.hint ?? "",
     }
 }
