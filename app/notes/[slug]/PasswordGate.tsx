@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 
-const SECRET_CODE = "21" 
+const SECRET_CODE = "green" 
 
 export default function PasswordGate({
   slug,
@@ -34,7 +34,7 @@ export default function PasswordGate({
 
   return (
     <section className="mx-auto w-10/12 lg:w-1/2 mt-20 flex flex-col gap-6">
-      <h1 className="text-xl font-sourceSans3">this article is protected</h1>
+      <h1 className="text-xl font-sourceSans3">this article is locked</h1>
 
       {hint ? (
         <p className="text-sm opacity-70 font-sourceSans3">hint: {hint}</p>
@@ -43,11 +43,11 @@ export default function PasswordGate({
       <form onSubmit={handleSubmit} className="flex flex-col gap-3">
         <input
           type="text"
-          inputMode="numeric"
-          maxLength={2}
+          inputMode="text"
+          maxLength={5}
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          placeholder="enter 2 digits"
+          placeholder="enter 5 letters"
           className="border p-2"
         />
         <button className="border p-2" disabled={loading}>

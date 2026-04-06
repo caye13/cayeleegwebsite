@@ -3,7 +3,7 @@ title: "on the loneliness of life"
 category: "thoughts"
 date: "04-04-2026"
 slug: hidden-article
-hint: "sent in the groupchat but if you cant find it then how old am i turning (no its not 09 dad)"
+hint: "oversight had to change password what's my favorite color"
 type: thoughts
 protected: true
 ---
