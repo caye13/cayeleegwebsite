@@ -19,7 +19,7 @@ const PhotoGallery = () => {
         // { id: 12, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/belvedere.jpg", title: "Coder Hunch", location: "Belvedere, CA", date: "January, 2025", description: "Turtle neck weather" },
         // { id: 13, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/skating.jpg", title: "Board Broke", location: "Los Angeles, CA", date: "September, 2025", description: "Studying for midterms??" },
         { id: 14, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/lesmis.jpg", title: "Round 2 of Les Misérables", location: "Los Angeles, CA", date: "October, 2025", description: "So the question is how many times can you listen to my brother's and my rendition of Drink With Me until you've lost all your marbles..." },
-        { id: 15, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/youngpadawan.JPG", title: "Young Padawans", location: "San Francisco, CA", date: "August, 2008", description: "The force is strong with this one" },
+        { id: 15, src: "https://raw.githubusercontent.com/caye13/my-website-photos/main/youngpadawan.jpeg", title: "Young Padawan", location: "San Francisco, CA", date: "August, 2008", description: "The force is strong with this one" },
     ];
 
     const [flippedCards, setFlippedCards] = useState({});
