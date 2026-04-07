@@ -8,4 +8,4 @@ type: thoughts
 protected: true
 ---
 
-Stoic discipline with an Epicurean heart. I wish I were a likable person.
+:(
