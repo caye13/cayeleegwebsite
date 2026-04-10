@@ -5,6 +5,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import "../styles/globals.css"
 import Footer from '../components/NotesFooter';
 import Cursor from '../components/Cursor';
+import { ClerkProvider } from "@clerk/nextjs";
+
 
 const cormorantGaramond = Cormorant_Garamond({
   subsets: ["latin"],
@@ -41,9 +43,11 @@ export default function RootLayout({
         className={`${cormorantGaramond.variable} ${sourceSans3.variable}`}
       >
         {/* <Cursor /> */}
+        <ClerkProvider>
         <main className="flex-grow">
           {children}
         </main>
+        </ClerkProvider>
         <Analytics />
         <SpeedInsights />
       </body>
