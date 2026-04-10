@@ -218,6 +218,30 @@ const InterestsPage = () => {
                     </section>
                     <BookshelfSection />
                     <WoodworkingSection />
+                    <section className="in-progress-card">
+                        {/* honeycomb fills right 40% */}
+                        <svg
+                            style={{ position: "absolute", top: 0, right: 0, width: "40%", height: "100%", opacity: 0.15 }}
+                            viewBox="0 0 140 140"
+                            preserveAspectRatio="xMidYMid slice"
+                        >
+                            <defs>
+                            <pattern id="hex" x="0" y="0" width="28" height="32" patternUnits="userSpaceOnUse">
+                                <polygon points="14,2 26,9 26,23 14,30 2,23 2,9" fill="none" stroke="#92400e" strokeWidth="1.5"/>
+                                <polygon points="28,18 40,25 40,39 28,46 16,39 16,25" fill="none" stroke="#92400e" strokeWidth="1.5"/>
+                            </pattern>
+                            </defs>
+                            <rect width="140" height="140" fill="url(#hex)"/>
+                        </svg>
+
+                        <div style={{ position: "relative" }}>
+                            <span className="in-progress-badge">In Progress</span>
+                            <h2>functional beta version still testing</h2>
+                            <Link href="/progress">
+                            <button className="progress-button">View Progress Tracker →</button>
+                            </Link>
+                        </div>
+                    </section>
                 </div>
             <Footer />
         </section>
