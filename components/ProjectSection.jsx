@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 import { title } from "process";
-import { image } from "framer-motion/client";
+import { image, pre } from "framer-motion/client";
 const cappiInfo = (
   <>
     <br></br>
@@ -194,6 +194,33 @@ const projectsData = [
     tag: ["All", "Fun"],
     gitUrl: "https://github.com/caye13/bandsanitizerofficial",
     previewUrl: "",
+  },
+  {
+    id: 19,
+    title: "Authentix - Collectibles Marketplace",
+    description: "Full-stack e-commerce application built with React (Vite + TailwindCSS) and Spring Boot and featuring RESTful APIs for authentication. Implemented cart persistence via local storage, Stripe-based payment flow, and Google Analytics integration. Developed a basic AI recommendation system using user interaction data (e.g., views, saves) to rank and surface relevant listings. Containerized the backend with Docker for consistent local and staged deployment, with planned migration to AWS for scalable cloud infrastructure.",
+    image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/authentix.png",
+    tag: ["All", "Web", "Fun"],
+    gitUrl: "https://github.com/cbieks/Authentix",
+    previewUrl: "https://www.authentixapp.com/",
+  },
+  {
+    id: 20,
+    title: "Community Fundings - Crowdfunding Platform",
+    description: "Full-stack community funding platform enabling users to create campaigns and contribute securely. Integrated Stripe for payment processing and Clerk for authentication and user management. Implemented backend APIs to enforce contribution eligibility, manage campaign state, and track transaction history. Deployed on AWS for scalable infrastructure and secure data handling. Designed a multi-step frontend workflow with secure handling of sensitive financial data, avoiding plaintext storage and ensuring a reliable end-to-end contribution experience.",
+    image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/cf.png",
+    tag: ["All", "Web", "Fun"],
+    gitUrl: "https://github.com/andrewrsetosj/communityfundingsbackend", 
+    previewUrl: "https://github.com/andrewrsetosj/communityfundingsfrontend",
+  },
+  {
+    id: 21,
+    title: "BestLLM - Reddit for Ranking LLMs and Prompts",
+    description: "The dumbest school project I have ever made. A Reddit-style forum for ranking LLMs and prompts. Users can create posts about LLMs or prompts, upvote/downvote, and comment. Built with Andriod Studio and Java. The backend is Firebase for data storage.",
+    image: "https://raw.githubusercontent.com/caye13/my-website-photos/main/bestllm.png",
+    tag: ["All", "Fun"],
+    gitUrl: "https://github.com/andrewrsetosj/best_llm",
+    previewUrl: "https://github.com/andrewrsetosj/best_llm",
   },
 ];
 

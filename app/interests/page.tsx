@@ -236,7 +236,7 @@ const InterestsPage = () => {
                         <div style={{ position: "relative" }}>
                             <span className="in-progress-badge">In Progress</span>
                             <h2>she's a busy bee  🐝</h2>
-                            <h2>functional beta version but still in development</h2>
+                            <h2>still in development so you might need to refresh the page several times</h2>
                             <Link href="/progress">
                             <button className="progress-button">View Progress Tracker →</button>
                             </Link>
