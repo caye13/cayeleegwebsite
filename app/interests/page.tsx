@@ -217,7 +217,6 @@ const InterestsPage = () => {
                         </div>
                     </section>
                     <BookshelfSection />
-                    <WoodworkingSection />
                     <section className="in-progress-card">
                         {/* honeycomb fills right 40% */}
                         <svg
@@ -243,6 +242,7 @@ const InterestsPage = () => {
                             </Link>
                         </div>
                     </section>
+                    <WoodworkingSection />
                 </div>
             <Footer />
         </section>
